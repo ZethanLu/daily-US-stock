@@ -96,6 +96,7 @@ jobs:
         run: |
           git config user.name  "stock-bot"
           git config user.email "stock-bot@users.noreply.github.com"
+          mkdir -p data reports
           git add data reports
           if git diff --cached --quiet; then
             echo "沒有變更,略過 commit"
