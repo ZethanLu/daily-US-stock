@@ -1,0 +1,1058 @@
+{
+ "META": {
+  "name": "Meta Platforms, Inc. Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 2602833034,
+  "market_cap": 1614251019356.4602,
+  "fetched": "2026-10-28"
+ },
+ "QQQ": {
+  "name": "Invesco QQQ Trust, Series 1",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": 674900000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "SPY": {
+  "name": "State Street SPDR S&P 500 ETF Trust",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 1061182116,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "MU": {
+  "name": "Micron Technology, Inc.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 1131423212,
+  "market_cap": 1050820622377.12,
+  "fetched": "2026-10-28"
+ },
+ "NVDA": {
+  "name": "Nvidia Corp",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 24147000000,
+  "market_cap": 5262597180000.0,
+  "fetched": "2026-10-28"
+ },
+ "TSLA": {
+  "name": "Tesla, Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 3952730153,
+  "market_cap": 1610579428141.38,
+  "fetched": "2026-10-28"
+ },
+ "SPCX": {
+  "name": "Space Exploration Technologies Corp. Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 13581063709,
+  "market_cap": 2017874445883.2202,
+  "fetched": "2026-10-28"
+ },
+ "AAPL": {
+  "name": "Apple Inc.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 14594180000,
+  "market_cap": 5065639878000.0,
+  "fetched": "2026-10-28"
+ },
+ "AMD": {
+  "name": "Advanced Micro Devices",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 1632475042,
+  "market_cap": 914610467030.92,
+  "fetched": "2026-10-28"
+ },
+ "MSFT": {
+  "name": "Microsoft Corp",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 7425545491,
+  "market_cap": 3945415085733.0303,
+  "fetched": "2026-10-28"
+ },
+ "SOXL": {
+  "name": "Direxion Daily Semiconductor Bull 3X ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 224900060,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "GOOGL": {
+  "name": "Alphabet Inc. Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 12229934831,
+  "market_cap": 3920672508121.98,
+  "fetched": "2026-10-28"
+ },
+ "SNDK": {
+  "name": "Sandisk Corporation Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 144527564,
+  "market_cap": 188585346609.75998,
+  "fetched": "2026-10-28"
+ },
+ "AVGO": {
+  "name": "Broadcom Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 4773629865,
+  "market_cap": 1634156711685.45,
+  "fetched": "2026-10-28"
+ },
+ "AMZN": {
+  "name": "Amazon.Com Inc",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 10786313572,
+  "market_cap": 2730015965073.1997,
+  "fetched": "2026-10-28"
+ },
+ "INTC": {
+  "name": "Intel Corp",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 5286105262,
+  "market_cap": 495519507259.87994,
+  "fetched": "2026-10-28"
+ },
+ "BA": {
+  "name": "Boeing Company",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 792449940,
+  "market_cap": 133274230909.20001,
+  "fetched": "2026-10-28"
+ },
+ "IVV": {
+  "name": "iShares Core S&P 500 ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 1145000000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "STX": {
+  "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 227393014,
+  "market_cap": 146488853548.94,
+  "fetched": "2026-10-28"
+ },
+ "GOOG": {
+  "name": "Alphabet Inc. Class C Capital Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 12229934831,
+  "market_cap": 3874810252505.73,
+  "fetched": "2026-10-28"
+ },
+ "IWM": {
+  "name": "iShares Russell 2000 ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 268300000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "LITE": {
+  "name": "Lumentum Holdings Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 90582856,
+  "market_cap": 78461058210.08,
+  "fetched": "2026-10-28"
+ },
+ "SMH": {
+  "name": "VanEck Semiconductor ETF",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": 124991874,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "SOXX": {
+  "name": "iShares Semiconductor ETF",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": 91550000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "HYG": {
+  "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 214700000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "PLTR": {
+  "name": "Palantir Technologies Inc. Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 2403058480,
+  "market_cap": 477559811730.39996,
+  "fetched": "2026-10-28"
+ },
+ "TSM": {
+  "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
+  "type": "ADRC",
+  "exchange": "XNYS",
+  "shares": 5186474013,
+  "market_cap": 2265814902059.31,
+  "fetched": "2026-10-28"
+ },
+ "SKHY": {
+  "name": "SK hynix Inc. American Depositary Shares",
+  "type": "ADRC",
+  "exchange": "XNAS",
+  "shares": 7051733240,
+  "market_cap": 1025039943766.4001,
+  "fetched": "2026-10-28"
+ },
+ "VOO": {
+  "name": "Vanguard S&P 500 ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 1473297962,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "MRVL": {
+  "name": "Marvell Technology, Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 898704613,
+  "market_cap": 218897482588.41,
+  "fetched": "2026-10-28"
+ },
+ "TQQQ": {
+  "name": "ProShares  UltraPro QQQ",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": 516650000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "WDC": {
+  "name": "Western Digital Corp.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 374323269,
+  "market_cap": 142572246696.72,
+  "fetched": "2026-10-28"
+ },
+ "NBIS": {
+  "name": "Nebius Group N.V. Class A Ordinary Shares",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 271855218,
+  "market_cap": 46343159012.46,
+  "fetched": "2026-10-28"
+ },
+ "MRNA": {
+  "name": "Moderna, Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 399235889,
+  "market_cap": 83029087835.33,
+  "fetched": "2026-10-28"
+ },
+ "BE": {
+  "name": "Bloom Energy Corporation",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 295537217,
+  "market_cap": 64574881914.5,
+  "fetched": "2026-10-28"
+ },
+ "ORCL": {
+  "name": "Oracle Corp",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 3031501149,
+  "market_cap": 395701844978.97003,
+  "fetched": "2026-10-28"
+ },
+ "V": {
+  "name": "VISA Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1877355259,
+  "market_cap": 754433984381.74,
+  "fetched": "2026-10-28"
+ },
+ "SOXS": {
+  "name": "Direxion Daily Semiconductor Bear 3X ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 79118272,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "DELL": {
+  "name": "Dell Technologies Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 635812750,
+  "market_cap": 319152567990.0,
+  "fetched": "2026-10-28"
+ },
+ "EWZ": {
+  "name": "iShares MSCI Brazil ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 329050000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "CRWV": {
+  "name": "CoreWeave, Inc. Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 551536602,
+  "market_cap": 32855035381.14,
+  "fetched": "2026-10-28"
+ },
+ "NFLX": {
+  "name": "NetFlix Inc",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 4163939676,
+  "market_cap": 260329508543.52002,
+  "fetched": "2026-10-28"
+ },
+ "GEV": {
+  "name": "GE Vernova Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 266333581,
+  "market_cap": 238389861681.48,
+  "fetched": "2026-10-28"
+ },
+ "LQD": {
+  "name": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 284900000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "HOOD": {
+  "name": "Robinhood Markets, Inc. Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 899082273,
+  "market_cap": 85017219734.88,
+  "fetched": "2026-10-28"
+ },
+ "SOFI": {
+  "name": "SoFi Technologies, Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 1296617325,
+  "market_cap": 21264524130.0,
+  "fetched": "2026-10-28"
+ },
+ "XOM": {
+  "name": "ExxonMobil Holdings Corporation",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 4111911960,
+  "market_cap": 739774080723.6,
+  "fetched": "2026-10-28"
+ },
+ "AMAT": {
+  "name": "Applied Materials Inc",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 793597443,
+  "market_cap": 314209035606.99,
+  "fetched": "2026-10-28"
+ },
+ "TXN": {
+  "name": "Texas Instruments Incorporated",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 913247686,
+  "market_cap": 282111342682.26,
+  "fetched": "2026-10-28"
+ },
+ "LLY": {
+  "name": "Eli Lilly & Co.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 891357065,
+  "market_cap": 1142639535194.1501,
+  "fetched": "2026-10-28"
+ },
+ "LRCX": {
+  "name": "Lam Research Corp",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 1251424362,
+  "market_cap": 301405557587.7,
+  "fetched": "2026-10-28"
+ },
+ "EWY": {
+  "name": "iShares MSCI South Korea ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 146550000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "QCOM": {
+  "name": "Qualcomm Inc",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 1067839507,
+  "market_cap": 196664002004.18997,
+  "fetched": "2026-10-28"
+ },
+ "CLS": {
+  "name": "Celestica, Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 126111808,
+  "market_cap": 34874959384.32,
+  "fetched": "2026-10-28"
+ },
+ "COST": {
+  "name": "Costco Wholesale Corp",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 443129349,
+  "market_cap": 439641921023.37,
+  "fetched": "2026-10-28"
+ },
+ "ASML": {
+  "name": "ASML Holding NV",
+  "type": "ADRC",
+  "exchange": "XNAS",
+  "shares": 385417742,
+  "market_cap": 630377696282.94,
+  "fetched": "2026-10-28"
+ },
+ "XLE": {
+  "name": "State Street Energy Select Sector SPDR ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 662798400,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "MA": {
+  "name": "Mastercard Incorporated",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 876009940,
+  "market_cap": 534234661909.0,
+  "fetched": "2026-10-28"
+ },
+ "NOW": {
+  "name": "SERVICENOW, INC.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1033862000,
+  "market_cap": 160021160360.0,
+  "fetched": "2026-10-28"
+ },
+ "GLW": {
+  "name": "Corning Incorporated",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 861388331,
+  "market_cap": 108793346205.3,
+  "fetched": "2026-10-28"
+ },
+ "GE": {
+  "name": "GE Aerospace",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1037562513,
+  "market_cap": 308840857619.58,
+  "fetched": "2026-10-28"
+ },
+ "VLO": {
+  "name": "Valero Energy Corporation",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 287927461,
+  "market_cap": 111525822743.73999,
+  "fetched": "2026-10-28"
+ },
+ "RSP": {
+  "name": "Invesco S&P 500 Equal Weight ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 458880000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "GLD": {
+  "name": "SPDR Gold Trust, SPDR Gold Shares",
+  "type": "ETV",
+  "exchange": "ARCX",
+  "shares": 366700000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "CRWD": {
+  "name": "CrowdStrike Holdings, Inc. Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 1023934842,
+  "market_cap": 274435016352.84,
+  "fetched": "2026-10-28"
+ },
+ "PANW": {
+  "name": "Palo Alto Networks, Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 818000000,
+  "market_cap": 328590600000.0,
+  "fetched": "2026-10-28"
+ },
+ "DRAM": {
+  "name": "Roundhill Memory ETF",
+  "type": "ETF",
+  "exchange": "BATS",
+  "shares": null,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "WMT": {
+  "name": "Walmart Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 7933746241,
+  "market_cap": 946654601476.12,
+  "fetched": "2026-10-28"
+ },
+ "CRM": {
+  "name": "Salesforce, Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 823000000,
+  "market_cap": 198252470000.0,
+  "fetched": "2026-10-28"
+ },
+ "CAT": {
+  "name": "Caterpillar Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 459674889,
+  "market_cap": 327890695072.58997,
+  "fetched": "2026-10-28"
+ },
+ "VRT": {
+  "name": "Vertiv Holdings Co Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 384988173,
+  "market_cap": 80293133360.88,
+  "fetched": "2026-10-28"
+ },
+ "IEF": {
+  "name": "iShares 7-10 Year Treasury Bond ETF",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": 455600000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "ADI": {
+  "name": "Analog Devices, Inc.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 484565465,
+  "market_cap": 206109920537.75,
+  "fetched": "2026-10-28"
+ },
+ "GS": {
+  "name": "Goldman Sachs Group Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 291171408,
+  "market_cap": 265481354672.16,
+  "fetched": "2026-10-28"
+ },
+ "CBRS": {
+  "name": "Cerebras Systems Inc. Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 237564041,
+  "market_cap": 28343765731.71,
+  "fetched": "2026-10-28"
+ },
+ "SPGI": {
+  "name": "S&P Global Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 289900000,
+  "market_cap": 130144807000.0,
+  "fetched": "2026-10-28"
+ },
+ "KO": {
+  "name": "Coca-Cola Company",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 4301549243,
+  "market_cap": 392215259976.74005,
+  "fetched": "2026-10-28"
+ },
+ "TLT": {
+  "name": "iShares 20+ Year Treasury Bond ETF",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": 589400000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "CDNS": {
+  "name": "Cadence Design Systems",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 275393000,
+  "market_cap": 94481830440.0,
+  "fetched": "2026-10-28"
+ },
+ "JPM": {
+  "name": "JPMorgan Chase & Co.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 2655600000,
+  "market_cap": 891723924000.0,
+  "fetched": "2026-10-28"
+ },
+ "CSCO": {
+  "name": "Cisco Systems, Inc. Common Stock (DE)",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 3942586873,
+  "market_cap": 439125325914.74,
+  "fetched": "2026-10-28"
+ },
+ "KLAC": {
+  "name": "KLA Corporation Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 1305006492,
+  "market_cap": 200527297560.72,
+  "fetched": "2026-10-28"
+ },
+ "JNJ": {
+  "name": "Johnson & Johnson",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 2407310266,
+  "market_cap": 646916487782.18,
+  "fetched": "2026-10-28"
+ },
+ "UNH": {
+  "name": "UNITEDHEALTH GROUP INCORPORATED (Delaware)",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 897594847,
+  "market_cap": 368363949260.33,
+  "fetched": "2026-10-28"
+ },
+ "XLF": {
+  "name": "State Street Financial Select Sector SPDR ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 928445427,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "MSTR": {
+  "name": "Strategy Inc Common Stock Class A",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 423572256,
+  "market_cap": 59893116998.4,
+  "fetched": "2026-10-28"
+ },
+ "SGOV": {
+  "name": "iShares 0-3 Month Treasury Bond ETF",
+  "type": "ETF",
+  "exchange": "XNYS",
+  "shares": 1157300000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "RCL": {
+  "name": "Royal Caribbean Group",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 267470575,
+  "market_cap": 79149892554.0,
+  "fetched": "2026-10-28"
+ },
+ "CVX": {
+  "name": "Chevron Corporation",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1961603274,
+  "market_cap": 447696715225.01996,
+  "fetched": "2026-10-28"
+ },
+ "ACN": {
+  "name": "Accenture PLC",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 611942109,
+  "market_cap": 143904306352.44,
+  "fetched": "2026-10-28"
+ },
+ "EEM": {
+  "name": "iShares MSCI Emerging Markets ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 463500000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "MELI": {
+  "name": "Mercado Libre, Inc",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 50696802,
+  "market_cap": 85196482729.02,
+  "fetched": "2026-10-28"
+ },
+ "COHR": {
+  "name": "Coherent Corp.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 196931166,
+  "market_cap": 46434399631.14,
+  "fetched": "2026-10-28"
+ },
+ "XLK": {
+  "name": "State Street Technology Select Sector SPDR ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 659061794,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "SQQQ": {
+  "name": "ProShares UltraPro Short QQQ",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": 49701200,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "DIA": {
+  "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 86642867,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "IEMG": {
+  "name": "iShares Core MSCI Emerging Markets ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 1966800000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "XLV": {
+  "name": "State Street Health Care Select Sector SPDR ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 263015324,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "LMT": {
+  "name": "Lockheed Martin Corp.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 231004640,
+  "market_cap": 143913580673.6,
+  "fetched": "2026-10-28"
+ },
+ "UBER": {
+  "name": "Uber Technologies, Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 2042560121,
+  "market_cap": 134359604759.38,
+  "fetched": "2026-10-28"
+ },
+ "WELL": {
+  "name": "Welltower Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 731995000,
+  "market_cap": 165957906400.0,
+  "fetched": "2026-10-28"
+ },
+ "APH": {
+  "name": "Amphenol Corporation",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 2465966914,
+  "market_cap": 192863272343.93997,
+  "fetched": "2026-10-28"
+ },
+ "XBI": {
+  "name": "State Street SPDR S&P Biotech ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 69525000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "NXPI": {
+  "name": "NXP Semiconductors N.V.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 252164174,
+  "market_cap": 63923618109.0,
+  "fetched": "2026-10-28"
+ },
+ "TER": {
+  "name": "Teradyne, Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 156340750,
+  "market_cap": 50604373960.0,
+  "fetched": "2026-10-28"
+ },
+ "HCA": {
+  "name": "HCA Healthcare, Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 216501500,
+  "market_cap": 97417014940.0,
+  "fetched": "2026-10-28"
+ },
+ "CRDO": {
+  "name": "Credo Technology Group Holding Ltd Ordinary Shares",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 187951918,
+  "market_cap": 31468789630.74,
+  "fetched": "2026-10-28"
+ },
+ "MPC": {
+  "name": "MARATHON PETROLEUM CORPORATION",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 280824763,
+  "market_cap": 122433980172.74,
+  "fetched": "2026-10-28"
+ },
+ "GDX": {
+  "name": "VanEck Gold Miners ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 306902500,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "MRK": {
+  "name": "Merck & Co., Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 2467171638,
+  "market_cap": 349894281701.16,
+  "fetched": "2026-10-28"
+ },
+ "IREN": {
+  "name": "IREN Limited Ordinary Shares",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 394058648,
+  "market_cap": 10812969301.12,
+  "fetched": "2026-10-28"
+ },
+ "ALAB": {
+  "name": "Astera Labs, Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 173485104,
+  "market_cap": 49736444465.76,
+  "fetched": "2026-10-28"
+ },
+ "TMO": {
+  "name": "Thermo Fisher Scientific, Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 369747286,
+  "market_cap": 256242264143.72,
+  "fetched": "2026-10-28"
+ },
+ "NU": {
+  "name": "Nu Holdings Ltd.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 4830688659,
+  "market_cap": 59900539371.6,
+  "fetched": "2026-10-28"
+ },
+ "BAC": {
+  "name": "Bank of America Corporation",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 6922695323,
+  "market_cap": 350842198969.64,
+  "fetched": "2026-10-28"
+ },
+ "VZ": {
+  "name": "Verizon Communications",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 4145000000,
+  "market_cap": 182089850000.0,
+  "fetched": "2026-10-28"
+ },
+ "RKLB": {
+  "name": "Rocket Lab Corporation Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 639410989,
+  "market_cap": 37284054768.590004,
+  "fetched": "2026-10-28"
+ },
+ "MS": {
+  "name": "Morgan Stanley",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1565000000,
+  "market_cap": 292514150000.0,
+  "fetched": "2026-10-28"
+ },
+ "PG": {
+  "name": "Procter & Gamble Company",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 2317783143,
+  "market_cap": 369060609859.88995,
+  "fetched": "2026-10-28"
+ },
+ "IBIT": {
+  "name": "iShares Bitcoin Trust ETF",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": 1438400000,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "ADBE": {
+  "name": "Adobe Inc.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 389200000,
+  "market_cap": 96661712000.0,
+  "fetched": "2026-10-28"
+ },
+ "DASH": {
+  "name": "DoorDash, Inc. Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 433297937,
+  "market_cap": 73903296134.72,
+  "fetched": "2026-10-28"
+ },
+ "UPS": {
+  "name": "United Parcel Service, Inc. Class B",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 850781582,
+  "market_cap": 90259418034.38,
+  "fetched": "2026-10-28"
+ },
+ "CTAS": {
+  "name": "Cintas Corp",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 397075093,
+  "market_cap": 85291729976.40001,
+  "fetched": "2026-10-28"
+ },
+ "HD": {
+  "name": "Home Depot, Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 997689626,
+  "market_cap": 317764145881.0,
+  "fetched": "2026-10-28"
+ },
+ "XLP": {
+  "name": "State Street Consumer Staples Select Sector SPDR ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 167571809,
+  "market_cap": null,
+  "fetched": "2026-10-28"
+ },
+ "HLT": {
+  "name": "Hilton Worldwide Holdings Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 222504355,
+  "market_cap": 76686125950.75,
+  "fetched": "2026-10-28"
+ },
+ "TMUS": {
+  "name": "T-Mobile US, Inc.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 1072671613,
+  "market_cap": 157500372936.79,
+  "fetched": "2026-10-28"
+ },
+ "PEP": {
+  "name": "PepsiCo, Inc.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 1362741092,
+  "market_cap": 181925935782.0,
+  "fetched": "2026-10-28"
+ },
+ "BKNG": {
+  "name": "Booking Holdings Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 751380500,
+  "market_cap": 112812268269.99998,
+  "fetched": "2026-10-28"
+ },
+ "SMCI": {
+  "name": "Super Micro Computer, Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 656965384,
+  "market_cap": 23052915324.56,
+  "fetched": "2026-10-28"
+ },
+ "GM": {
+  "name": "General Motors Company",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 849000000,
+  "market_cap": 68378460000.00001,
+  "fetched": "2026-10-28"
+ }
+}
