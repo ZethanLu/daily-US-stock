@@ -1,0 +1,106 @@
+name: US Stock Daily Pipeline
+
+on:
+  schedule:
+    # 台北 13:00 = UTC 05:00;週二~週六 對應 美股週一~週五
+    # (免費資料源通常隔日才完整;若改用付費即時資料,可改 "0 0 * * 2-6" 即台北 08:00)
+    - cron: "0 5 * * 2-6"
+    # 每週日 台北 14:00:重抓歷史價格,處理分割與除權息調整
+    - cron: "0 6 * * 0"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "執行模式"
+        type: choice
+        options: [daily, backfill, refresh]
+        default: daily
+      target_date:
+        description: "指定日期 YYYY-MM-DD(留空=最近一個美股交易日;指定時會覆蓋既有排行檔)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: us-stock-pipeline
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      POLYGON_API_KEY: ${{ secrets.POLYGON_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      TARGET_DATE: ${{ inputs.target_date }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 判斷執行模式
+        id: mode
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          INPUT_MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$EVENT" = "schedule" ]; then
+            if [ "$SCHEDULE" = "0 6 * * 0" ]; then MODE=refresh; else MODE=daily; fi
+          else
+            MODE="$INPUT_MODE"
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "本次模式:$MODE"
+
+      # ───────── 首次建置:回補歷史資料 ─────────
+      - name: 回補歷史價格(約 320 交易日)
+        if: steps.mode.outputs.mode == 'backfill'
+        run: python scripts/backfill_prices.py --days 460 --universe-size 100
+
+      # ───────── 每週:重整歷史價格 ─────────
+      - name: 重整歷史價格(分割/除權息調整)
+        if: steps.mode.outputs.mode == 'refresh'
+        run: python scripts/refresh_prices.py --days 460 --active-days 30
+
+      # ───────── 每日主流程 ─────────
+      - name: 1. 抓取成交金額排行(前50)
+        id: rank
+        if: steps.mode.outputs.mode == 'daily'
+        run: python scripts/fetch_rankings.py --top 50 ${{ inputs.target_date != '' && '--force' || '' }}
+
+      - name: 2. 更新歷史K線(新面孔自動回補)
+        if: steps.mode.outputs.mode == 'daily' && steps.rank.outputs.skipped != 'true'
+        run: python scripts/update_prices.py --min-bars 300 --days 460
+
+      - name: 3. 前20名分析 / 新進榜 / ±3% 波動
+        if: steps.mode.outputs.mode == 'daily' && steps.rank.outputs.skipped != 'true'
+        run: python scripts/analyze.py --top-n 20 --move-threshold 3.0
+
+      - name: 4. 技術線型篩選(ATR + MACD)
+        if: steps.mode.outputs.mode == 'daily' && steps.rank.outputs.skipped != 'true'
+        run: python scripts/screen.py --config config.yml
+
+      - name: 5. AI 盤面與個股分析報告
+        if: steps.mode.outputs.mode == 'daily' && steps.rank.outputs.skipped != 'true'
+        run: python scripts/ai_report.py
+
+      # ───────── 存檔 ─────────
+      - name: 提交資料與報告
+        run: |
+          git config user.name  "stock-bot"
+          git config user.email "stock-bot@users.noreply.github.com"
+          git add data reports
+          if git diff --cached --quiet; then
+            echo "沒有變更,略過 commit"
+          else
+            git commit -m "update: ${{ steps.mode.outputs.mode }} $(date -u +%F)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi
