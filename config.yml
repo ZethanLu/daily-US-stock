@@ -1,0 +1,28 @@
+# ───── 資料來源 ─────
+polygon_min_interval_sec: 12.5   # 免費方案約每分鐘5次;付費方案可改 0
+gemini_model: gemini-2.5-flash
+
+# ───── 排行 ─────
+top_n: 50
+min_price: 1.0                   # 排除低於此價格的股票
+exclude_etf: true                # true=只看個股;false=納入 ETF/ETN
+include_types: [CS, ADRC]        # Polygon 證券類型:普通股、ADR
+market_proxies: [SPY, QQQ, DIA, IWM, SMH, TLT, GLD, USO, UUP, VIXY]   # 盤面分析用的 ETF 代理
+
+# ───── 分析 ─────
+top_n_analysis: 20               # 深入分析與新進榜判斷的名次範圍
+move_threshold_pct: 3.0          # 劇烈波動門檻 ±%
+
+# ───── 技術篩選 ─────
+screen_top_n: 50                 # 篩選範圍:成交值前 N 名
+pattern_a:                       # 區間整理且量縮
+  atr_period: 14
+  range_days: 20
+  max_range_atr_multiple: 6      # 嚴格 4.5 / 預設 6 / 寬鬆 8
+  edge_buffer_atr: 0.5
+  max_volume_ratio: 0.8          # 5日均量 / 20日均量
+pattern_b:                       # 週線多方、日線回檔
+  macd: [12, 26, 9]
+  daily_hist_decline_days: 3
+  dif_floor_pct: 1.0             # B3:日 DIF ≥ -1% × 收盤價
+  min_weekly_bars: 40

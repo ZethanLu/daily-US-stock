@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>美股成交值排行 Top 50</title>
+<meta name="description" content="全美股依成交金額(價格 × 成交量)排序的每日排行榜,含題材、新進榜、技術線型篩選與盤後分析報告。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <h1>美股成交值排行 Top 50</h1>
+  <p id="meta" class="meta">載入中…</p>
+  <p id="headline" class="headline" hidden></p>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="內容分頁">
+  <button role="tab" aria-selected="true" data-tab="rank">排行榜</button>
+  <button role="tab" aria-selected="false" data-tab="report">盤後報告</button>
+  <button role="tab" aria-selected="false" data-tab="screen">技術篩選</button>
+</nav>
+
+<main>
+  <section id="tab-rank" role="tabpanel">
+    <div id="market" class="market"></div>
+    <p class="hint">點欄位標題可排序;點任一列開啟走勢圖。色彩採台股慣例:<b class="up">紅漲</b>、<b class="down">綠跌</b>。</p>
+    <div class="scroll"><table id="rank-table"><thead></thead><tbody></tbody></table></div>
+  </section>
+
+  <section id="tab-report" role="tabpanel" hidden>
+    <label class="pick">報告日期 <select id="report-date"></select></label>
+    <article id="report" class="report">載入中…</article>
+  </section>
+
+  <section id="tab-screen" role="tabpanel" hidden>
+    <p class="hint" id="screen-hint"></p>
+    <div id="screen"></div>
+  </section>
+</main>
+
+<dialog id="chart-dlg">
+  <div class="dlg-head"><strong id="chart-title"></strong>
+    <a id="chart-link" target="_blank" rel="noopener">在 TradingView 開啟</a>
+    <button id="chart-close" aria-label="關閉">關閉</button></div>
+  <div id="tvbox"></div>
+</dialog>
+
+<footer>
+  <p>⚠️ 免責聲明:本站所有數據與「題材/族群」「市場焦點」等分析皆由程式與 AI 自動產生,僅供參考、非投資建議,且可能延遲、不完整或有誤。任何投資決策請自行查證並自負風險,本站不對任何損失負責。</p>
+  <p>行情資料:<a href="https://polygon.io/">Polygon.io</a>(前一美股交易日收盤)・題材與報告分析:<a href="https://ai.google.dev/">Google Gemini</a>・走勢圖:<a href="https://www.tradingview.com/">TradingView</a></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
