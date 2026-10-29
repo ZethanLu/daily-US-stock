@@ -4,9 +4,9 @@ on:
   schedule:
     # 台北 13:00 = UTC 05:00;週二~週六 對應 美股週一~週五
     # (免費資料源通常隔日才完整;若改用付費即時資料,可改 "0 0 * * 2-6" 即台北 08:00)
-    - cron: "0 5 * * 2-6"
+    - cron: "17 5 * * 2-6"
     # 每週日 台北 14:00:重抓歷史價格,處理分割與除權息調整
-    - cron: "0 6 * * 0"
+    - cron: "23 6 * * 0"
   workflow_dispatch:
     inputs:
       mode:
@@ -52,7 +52,7 @@ jobs:
           INPUT_MODE: ${{ inputs.mode }}
         run: |
           if [ "$EVENT" = "schedule" ]; then
-            if [ "$SCHEDULE" = "0 6 * * 0" ]; then MODE=refresh; else MODE=daily; fi
+            if [ "$SCHEDULE" = "23 6 * * 0" ]; then MODE=refresh; else MODE=daily; fi
           else
             MODE="$INPUT_MODE"
           fi
