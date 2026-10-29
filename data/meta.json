@@ -1054,5 +1054,21 @@
   "shares": 849000000,
   "market_cap": 68378460000.00001,
   "fetched": "2026-10-28"
+ },
+ "BSX": {
+  "name": "Boston Scientific Corp.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1449229526,
+  "market_cap": 65302282441.560005,
+  "fetched": "2026-10-29"
+ },
+ "FTNT": {
+  "name": "Fortinet, Inc.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 733713653,
+  "market_cap": 135737025805.0,
+  "fetched": "2026-10-29"
  }
 }
