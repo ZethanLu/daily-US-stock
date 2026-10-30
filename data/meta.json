@@ -1070,5 +1070,29 @@
   "shares": 733713653,
   "market_cap": 135737025805.0,
   "fetched": "2026-10-29"
+ },
+ "RTX": {
+  "name": "RTX Corporation",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1349440548,
+  "market_cap": 269078445271.2,
+  "fetched": "2026-10-30"
+ },
+ "RDDT": {
+  "name": "Reddit, Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 192396510,
+  "market_cap": 24934587696.0,
+  "fetched": "2026-10-30"
+ },
+ "ALNY": {
+  "name": "Alnylam Pharmaceuticals, Inc.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 133937576,
+  "market_cap": 23305138224.0,
+  "fetched": "2026-10-30"
  }
 }
