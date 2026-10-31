@@ -1094,5 +1094,13 @@
   "shares": 133937576,
   "market_cap": 23305138224.0,
   "fetched": "2026-10-30"
+ },
+ "COIN": {
+  "name": "Coinbase Global, Inc. Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 264763418,
+  "market_cap": 38004141019.72,
+  "fetched": "2026-10-31"
  }
 }
