@@ -1,0 +1,221 @@
+{
+ "date": "2026-11-02",
+ "universe": 50,
+ "pattern_a": [
+  {
+   "ticker": "UNH",
+   "name": "UNITEDHEALTH GROUP INCORPORATED (Delaware)",
+   "close": 400.44,
+   "atr": 11.225,
+   "range_pct": 15.753,
+   "range_atr": 5.172,
+   "edge_low_atr": 2.846,
+   "edge_high_atr": 2.326,
+   "vol_ratio": 0.713,
+   "ma60": 391.509,
+   "d_dif": 6.546,
+   "d_dea": 6.98,
+   "d_hist": -0.435,
+   "w_dif": 9.281,
+   "w_dea": 11.098,
+   "w_hist": -1.817,
+   "w_hist_prev": -1.956,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "B1": false,
+    "B2": true,
+    "B3": true
+   }
+  }
+ ],
+ "pattern_b": [],
+ "both": [],
+ "near": [
+  {
+   "ticker": "AAPL",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.008,
+   "vol_ratio": 1.197,
+   "d_hist": -0.788
+  },
+  {
+   "ticker": "AAPL",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.008,
+   "vol_ratio": 1.197,
+   "d_hist": -0.788
+  },
+  {
+   "ticker": "TSLA",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.749,
+   "vol_ratio": 1.038,
+   "d_hist": 2.82
+  },
+  {
+   "ticker": "TSLA",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 4.749,
+   "vol_ratio": 1.038,
+   "d_hist": 2.82
+  },
+  {
+   "ticker": "LLY",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.147,
+   "vol_ratio": 1.317,
+   "d_hist": 16.573
+  },
+  {
+   "ticker": "WMT",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 9.135,
+   "vol_ratio": 1.019,
+   "d_hist": 0.71
+  },
+  {
+   "ticker": "TXN",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.15,
+   "vol_ratio": 1.199,
+   "d_hist": 1.816
+  },
+  {
+   "ticker": "TXN",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 4.15,
+   "vol_ratio": 1.199,
+   "d_hist": 1.816
+  },
+  {
+   "ticker": "COST",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.116,
+   "vol_ratio": 1.101,
+   "d_hist": 2.517
+  },
+  {
+   "ticker": "V",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.663,
+   "vol_ratio": 1.163,
+   "d_hist": 1.273
+  },
+  {
+   "ticker": "MA",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.948,
+   "vol_ratio": 1.212,
+   "d_hist": 2.943
+  },
+  {
+   "ticker": "ABBV",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.805,
+   "vol_ratio": 0.99,
+   "d_hist": 0.131
+  },
+  {
+   "ticker": "ADI",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.488,
+   "vol_ratio": 1.288,
+   "d_hist": 0.886
+  },
+  {
+   "ticker": "ADI",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 3.488,
+   "vol_ratio": 1.288,
+   "d_hist": 0.886
+  },
+  {
+   "ticker": "PANW",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.011,
+   "vol_ratio": 1.111,
+   "d_hist": -1.604
+  },
+  {
+   "ticker": "UNH",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 5.172,
+   "vol_ratio": 0.713,
+   "d_hist": -0.435
+  },
+  {
+   "ticker": "CRWD",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.952,
+   "vol_ratio": 0.999,
+   "d_hist": -0.9
+  },
+  {
+   "ticker": "CRWD",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 4.952,
+   "vol_ratio": 0.999,
+   "d_hist": -0.9
+  },
+  {
+   "ticker": "JNJ",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.548,
+   "vol_ratio": 0.94,
+   "d_hist": 1.891
+  },
+  {
+   "ticker": "SHOP",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.716,
+   "vol_ratio": 0.977,
+   "d_hist": -2.701
+  }
+ ],
+ "insufficient": [
+  "SKHY"
+ ]
+}

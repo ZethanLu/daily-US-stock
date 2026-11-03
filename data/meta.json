@@ -1102,5 +1102,29 @@
   "shares": 264763418,
   "market_cap": 38004141019.72,
   "fetched": "2026-10-31"
+ },
+ "ABBV": {
+  "name": "ABBVIE INC.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1767117285,
+  "market_cap": 510414156599.39996,
+  "fetched": "2026-11-03"
+ },
+ "VTI": {
+  "name": "Vanguard Morningstar Total Stock Market ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 1841784808,
+  "market_cap": null,
+  "fetched": "2026-11-03"
+ },
+ "SHOP": {
+  "name": "Shopify Inc. Class A subordinate voting shares",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 1286643931,
+  "market_cap": 200999514900.82,
+  "fetched": "2026-11-03"
  }
 }
