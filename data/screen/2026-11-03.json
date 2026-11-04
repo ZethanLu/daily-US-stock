@@ -1,0 +1,323 @@
+{
+ "date": "2026-11-03",
+ "universe": 50,
+ "pattern_a": [
+  {
+   "ticker": "MRNA",
+   "name": "Moderna, Inc. Common Stock",
+   "close": 228.44,
+   "atr": 19.164,
+   "range_pct": 41.748,
+   "range_atr": 3.911,
+   "edge_low_atr": 2.552,
+   "edge_high_atr": 1.359,
+   "vol_ratio": 0.538,
+   "ma60": 170.999,
+   "d_dif": 10.374,
+   "d_dea": 12.407,
+   "d_hist": -2.034,
+   "w_dif": 44.298,
+   "w_dea": 35.5,
+   "w_hist": 8.799,
+   "w_hist_prev": 9.782,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "B1": false,
+    "B2": true,
+    "B3": true
+   }
+  }
+ ],
+ "pattern_b": [
+  {
+   "ticker": "TSLA",
+   "name": "Tesla, Inc. Common Stock",
+   "close": 398.5,
+   "atr": 13.403,
+   "range_pct": 18.578,
+   "range_atr": 4.842,
+   "edge_low_atr": 3.669,
+   "edge_high_atr": 1.174,
+   "vol_ratio": 0.937,
+   "ma60": 366.624,
+   "d_dif": 9.461,
+   "d_dea": 7.305,
+   "d_hist": 2.155,
+   "w_dif": -0.729,
+   "w_dea": -6.531,
+   "w_hist": 5.803,
+   "w_hist_prev": 4.852,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": false,
+    "A4": true,
+    "B1": true,
+    "B2": true,
+    "B3": true
+   }
+  },
+  {
+   "ticker": "ADI",
+   "name": "Analog Devices, Inc.",
+   "close": 419.79,
+   "atr": 15.213,
+   "range_pct": 13.539,
+   "range_atr": 3.4,
+   "edge_low_atr": 2.484,
+   "edge_high_atr": 0.916,
+   "vol_ratio": 1.272,
+   "ma60": 388.506,
+   "d_dif": 7.405,
+   "d_dea": 6.659,
+   "d_hist": 0.746,
+   "w_dif": 13.277,
+   "w_dea": 12.256,
+   "w_hist": 1.021,
+   "w_hist_prev": 0.127,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": false,
+    "A4": true,
+    "B1": true,
+    "B2": true,
+    "B3": true
+   }
+  }
+ ],
+ "both": [],
+ "near": [
+  {
+   "ticker": "AAPL",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.546,
+   "vol_ratio": 1.258,
+   "d_hist": -1.546
+  },
+  {
+   "ticker": "AAPL",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.546,
+   "vol_ratio": 1.258,
+   "d_hist": -1.546
+  },
+  {
+   "ticker": "MU",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.239,
+   "vol_ratio": 1.014,
+   "d_hist": -6.037
+  },
+  {
+   "ticker": "AMD",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.948,
+   "vol_ratio": 1.299,
+   "d_hist": -9.485
+  },
+  {
+   "ticker": "TSLA",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.842,
+   "vol_ratio": 0.937,
+   "d_hist": 2.155
+  },
+  {
+   "ticker": "MSFT",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.541,
+   "vol_ratio": 1.416,
+   "d_hist": -3.193
+  },
+  {
+   "ticker": "MSFT",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.541,
+   "vol_ratio": 1.416,
+   "d_hist": -3.193
+  },
+  {
+   "ticker": "SPCX",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.969,
+   "vol_ratio": 0.903,
+   "d_hist": -1.765
+  },
+  {
+   "ticker": "PLTR",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.481,
+   "vol_ratio": 1.227,
+   "d_hist": -3.272
+  },
+  {
+   "ticker": "OKTA",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.227,
+   "vol_ratio": 2.049,
+   "d_hist": -3.585
+  },
+  {
+   "ticker": "OKTA",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 4.227,
+   "vol_ratio": 2.049,
+   "d_hist": -3.585
+  },
+  {
+   "ticker": "LLY",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.159,
+   "vol_ratio": 1.374,
+   "d_hist": 16.115
+  },
+  {
+   "ticker": "SHOP",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.414,
+   "vol_ratio": 1.325,
+   "d_hist": -3.744
+  },
+  {
+   "ticker": "TXN",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 4.369,
+   "vol_ratio": 1.193,
+   "d_hist": 2.03
+  },
+  {
+   "ticker": "WMT",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.879,
+   "vol_ratio": 1.075,
+   "d_hist": 0.633
+  },
+  {
+   "ticker": "GKOS",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 9.061,
+   "vol_ratio": 2.262,
+   "d_hist": 7.616
+  },
+  {
+   "ticker": "V",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.502,
+   "vol_ratio": 1.062,
+   "d_hist": 1.253
+  },
+  {
+   "ticker": "MRNA",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.911,
+   "vol_ratio": 0.538,
+   "d_hist": -2.034
+  },
+  {
+   "ticker": "MA",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.553,
+   "vol_ratio": 1.18,
+   "d_hist": 2.842
+  },
+  {
+   "ticker": "KMB",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 6.049,
+   "vol_ratio": 1.513,
+   "d_hist": -0.026
+  },
+  {
+   "ticker": "XOM",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 6.039,
+   "vol_ratio": 1.192,
+   "d_hist": -0.354
+  },
+  {
+   "ticker": "COST",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.945,
+   "vol_ratio": 1.071,
+   "d_hist": 2.017
+  },
+  {
+   "ticker": "COST",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 5.945,
+   "vol_ratio": 1.071,
+   "d_hist": 2.017
+  },
+  {
+   "ticker": "PANW",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.56,
+   "vol_ratio": 1.135,
+   "d_hist": -2.649
+  },
+  {
+   "ticker": "ADI",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.4,
+   "vol_ratio": 1.272,
+   "d_hist": 0.746
+  }
+ ],
+ "insufficient": [
+  "SKHY"
+ ]
+}

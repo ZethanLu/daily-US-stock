@@ -1126,5 +1126,37 @@
   "shares": 1286643931,
   "market_cap": 200999514900.82,
   "fetched": "2026-11-03"
+ },
+ "OKTA": {
+  "name": "Okta, Inc. Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 174820928,
+  "market_cap": 33160033623.04,
+  "fetched": "2026-11-04"
+ },
+ "GKOS": {
+  "name": "Glaukos Corporation",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 59196870,
+  "market_cap": 13795238584.8,
+  "fetched": "2026-11-04"
+ },
+ "ANET": {
+  "name": "Arista Networks",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1261224648,
+  "market_cap": 214294679941.68,
+  "fetched": "2026-11-04"
+ },
+ "KMB": {
+  "name": "Kimberly-Clark Corp.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 332579038,
+  "market_cap": 34741206309.479996,
+  "fetched": "2026-11-04"
  }
 }
