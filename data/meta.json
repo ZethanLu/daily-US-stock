@@ -1158,5 +1158,29 @@
   "shares": 332579038,
   "market_cap": 34741206309.479996,
   "fetched": "2026-11-04"
+ },
+ "APP": {
+  "name": "Applovin Corporation Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 334650521,
+  "market_cap": 90941279081.75,
+  "fetched": "2026-11-05"
+ },
+ "MCD": {
+  "name": "McDonald's Corporation",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 707641531,
+  "market_cap": 198295309816.82,
+  "fetched": "2026-11-05"
+ },
+ "CVS": {
+  "name": "CVS HEALTH CORPORATION",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1279474188,
+  "market_cap": 102306756072.48,
+  "fetched": "2026-11-05"
  }
 }
