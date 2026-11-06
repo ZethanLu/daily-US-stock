@@ -1,0 +1,158 @@
+{
+ "date": "2026-11-05",
+ "universe": 50,
+ "pattern_a": [],
+ "pattern_b": [
+  {
+   "ticker": "LLY",
+   "name": "Eli Lilly & Co.",
+   "close": 1364.73,
+   "atr": 47.606,
+   "range_pct": 26.165,
+   "range_atr": 6.33,
+   "edge_low_atr": 4.475,
+   "edge_high_atr": 1.854,
+   "vol_ratio": 1.446,
+   "ma60": 1213.049,
+   "d_dif": 56.529,
+   "d_dea": 46.555,
+   "d_hist": 9.974,
+   "w_dif": 67.493,
+   "w_dea": 51.973,
+   "w_hist": 15.52,
+   "w_hist_prev": 12.79,
+   "conds": {
+    "A1": false,
+    "A2": true,
+    "A3": false,
+    "A4": true,
+    "B1": true,
+    "B2": true,
+    "B3": true
+   }
+  }
+ ],
+ "both": [],
+ "near": [
+  {
+   "ticker": "AAPL",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.388,
+   "vol_ratio": 1.493,
+   "d_hist": -0.735
+  },
+  {
+   "ticker": "AAPL",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.388,
+   "vol_ratio": 1.493,
+   "d_hist": -0.735
+  },
+  {
+   "ticker": "MSFT",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.483,
+   "vol_ratio": 1.459,
+   "d_hist": -0.402
+  },
+  {
+   "ticker": "MSFT",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.483,
+   "vol_ratio": 1.459,
+   "d_hist": -0.402
+  },
+  {
+   "ticker": "AMZN",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.637,
+   "vol_ratio": 1.583,
+   "d_hist": 0.829
+  },
+  {
+   "ticker": "V",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.328,
+   "vol_ratio": 1.238,
+   "d_hist": 1.56
+  },
+  {
+   "ticker": "QCOM",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.171,
+   "vol_ratio": 1.692,
+   "d_hist": -1.744
+  },
+  {
+   "ticker": "TXN",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.731,
+   "vol_ratio": 1.436,
+   "d_hist": -0.409
+  },
+  {
+   "ticker": "TXN",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.731,
+   "vol_ratio": 1.436,
+   "d_hist": -0.409
+  },
+  {
+   "ticker": "WMT",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.376,
+   "vol_ratio": 1.372,
+   "d_hist": 0.734
+  },
+  {
+   "ticker": "COST",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 6.947,
+   "vol_ratio": 1.334,
+   "d_hist": 4.737
+  },
+  {
+   "ticker": "MSTR",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.448,
+   "vol_ratio": 1.139,
+   "d_hist": -1.592
+  },
+  {
+   "ticker": "MA",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.435,
+   "vol_ratio": 1.198,
+   "d_hist": 3.505
+  }
+ ],
+ "insufficient": [
+  "SKHY"
+ ]
+}

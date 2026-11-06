@@ -1182,5 +1182,13 @@
   "shares": 1279474188,
   "market_cap": 102306756072.48,
   "fetched": "2026-11-05"
+ },
+ "QQQM": {
+  "name": "Invesco NASDAQ 100 ETF",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": 371670000,
+  "market_cap": null,
+  "fetched": "2026-11-06"
  }
 }
