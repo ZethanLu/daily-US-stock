@@ -1190,5 +1190,29 @@
   "shares": 371670000,
   "market_cap": null,
   "fetched": "2026-11-06"
+ },
+ "MCHP": {
+  "name": "Microchip Technology Inc",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 544223627,
+  "market_cap": 31755448635.45,
+  "fetched": "2026-11-07"
+ },
+ "NET": {
+  "name": "Cloudflare, Inc. Class A common stock, par value $0.001 per share",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 358392255,
+  "market_cap": 96317918531.25,
+  "fetched": "2026-11-07"
+ },
+ "ABNB": {
+  "name": "Airbnb, Inc. Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 587542197,
+  "market_cap": 111627142008.03,
+  "fetched": "2026-11-07"
  }
 }

@@ -1,0 +1,223 @@
+{
+ "date": "2026-11-06",
+ "universe": 50,
+ "pattern_a": [
+  {
+   "ticker": "MRNA",
+   "name": "Moderna, Inc. Common Stock",
+   "close": 254.19,
+   "atr": 20.874,
+   "range_pct": 49.0,
+   "range_atr": 4.214,
+   "edge_low_atr": 3.577,
+   "edge_high_atr": 0.638,
+   "vol_ratio": 0.735,
+   "ma60": 180.434,
+   "d_dif": 14.414,
+   "d_dea": 12.991,
+   "d_hist": 1.423,
+   "w_dif": 46.362,
+   "w_dea": 35.924,
+   "w_hist": 10.438,
+   "w_hist_prev": 9.777,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "B1": true,
+    "B2": false,
+    "B3": true
+   }
+  }
+ ],
+ "pattern_b": [
+  {
+   "ticker": "LLY",
+   "name": "Eli Lilly & Co.",
+   "close": 1354.0,
+   "atr": 47.353,
+   "range_pct": 25.431,
+   "range_atr": 6.221,
+   "edge_low_atr": 4.131,
+   "edge_high_atr": 2.091,
+   "vol_ratio": 1.288,
+   "ma60": 1215.465,
+   "d_dif": 52.916,
+   "d_dea": 47.827,
+   "d_hist": 5.089,
+   "w_dif": 66.638,
+   "w_dea": 51.802,
+   "w_hist": 14.835,
+   "w_hist_prev": 12.79,
+   "conds": {
+    "A1": false,
+    "A2": true,
+    "A3": false,
+    "A4": true,
+    "B1": true,
+    "B2": true,
+    "B3": true
+   }
+  }
+ ],
+ "both": [],
+ "near": [
+  {
+   "ticker": "AAPL",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.426,
+   "vol_ratio": 1.388,
+   "d_hist": -0.768
+  },
+  {
+   "ticker": "AAPL",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.426,
+   "vol_ratio": 1.388,
+   "d_hist": -0.768
+  },
+  {
+   "ticker": "MSFT",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.51,
+   "vol_ratio": 1.367,
+   "d_hist": -0.586
+  },
+  {
+   "ticker": "MSFT",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.51,
+   "vol_ratio": 1.367,
+   "d_hist": -0.586
+  },
+  {
+   "ticker": "TSLA",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.554,
+   "vol_ratio": 1.174,
+   "d_hist": -4.225
+  },
+  {
+   "ticker": "AMZN",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.774,
+   "vol_ratio": 1.312,
+   "d_hist": 1.019
+  },
+  {
+   "ticker": "APP",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.872,
+   "vol_ratio": 2.101,
+   "d_hist": 14.183
+  },
+  {
+   "ticker": "MRNA",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 4.214,
+   "vol_ratio": 0.735,
+   "d_hist": 1.423
+  },
+  {
+   "ticker": "V",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 6.212,
+   "vol_ratio": 1.268,
+   "d_hist": 1.037
+  },
+  {
+   "ticker": "QCOM",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.113,
+   "vol_ratio": 1.551,
+   "d_hist": -1.531
+  },
+  {
+   "ticker": "WMT",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 6.638,
+   "vol_ratio": 1.288,
+   "d_hist": 0.482
+  },
+  {
+   "ticker": "TXN",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.756,
+   "vol_ratio": 1.325,
+   "d_hist": -1.968
+  },
+  {
+   "ticker": "TXN",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.756,
+   "vol_ratio": 1.325,
+   "d_hist": -1.968
+  },
+  {
+   "ticker": "COST",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 6.677,
+   "vol_ratio": 1.228,
+   "d_hist": 4.515
+  },
+  {
+   "ticker": "JNJ",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.969,
+   "vol_ratio": 1.057,
+   "d_hist": 1.341
+  },
+  {
+   "ticker": "UNH",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.353,
+   "vol_ratio": 1.055,
+   "d_hist": -2.251
+  },
+  {
+   "ticker": "UNH",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 4.353,
+   "vol_ratio": 1.055,
+   "d_hist": -2.251
+  }
+ ],
+ "insufficient": [
+  "SKHY"
+ ]
+}
