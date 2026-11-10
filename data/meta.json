@@ -1214,5 +1214,21 @@
   "shares": 587542197,
   "market_cap": 111627142008.03,
   "fetched": "2026-11-07"
+ },
+ "MPWR": {
+  "name": "Monolithic Power Systems, Inc.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 48768000,
+  "market_cap": 67692422400.0,
+  "fetched": "2026-11-10"
+ },
+ "CEG": {
+  "name": "Constellation Energy Corporation Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 354307379,
+  "market_cap": 97820724268.10999,
+  "fetched": "2026-11-10"
  }
 }

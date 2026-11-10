@@ -1,106 +1,122 @@
-# 美股盤後分析:2026-11-06(美東收盤)
+# 美股盤後分析:2026-11-09(美東收盤)
 
 > AI 未啟用或本次呼叫失敗,以下僅含程式計算的數據。
 
 ## 1. 成交值前 20 名
 | # | 代碼 | 名稱 | 收盤 | 漲跌幅 | 成交金額(美元) | 昨日名次 | 題材 |
 |---|---|---|---|---|---|---|---|
-| 1 | NVDA | Nvidia Corp | 186.64 | +2.78% | 340.3 億 | 1 |  |
-| 2 | MU | Micron Technology, Inc. | 690.00 | +5.12% | 312.4 億 | 2 |  |
-| 3 | AMD | Advanced Micro Devices | 449.04 | +11.04% | 203.7 億 | 3 |  |
-| 4 | AAPL | Apple Inc. | 342.37 | -0.52% | 153.2 億 | 6 |  |
-| 5 | SPCX | Space Exploration Technologies Corp. Class A Common Stock | 134.27 | +8.62% | 152.7 億 | 9 |  |
-| 6 | SNDK | Sandisk Corporation Common Stock | 835.06 | +3.55% | 151.5 億 | 5 |  |
-| 7 | MSFT | Microsoft Corp | 530.61 | -0.99% | 143.4 億 | 7 |  |
-| 8 | TSLA | Tesla, Inc. Common Stock | 358.22 | +4.23% | 131.4 億 | 4 |  |
-| 9 | AMZN | Amazon.Com Inc | 259.30 | -0.35% | 111.2 億 | 8 |  |
-| 10 | GOOGL | Alphabet Inc. Class A Common Stock | 284.78 | +0.78% | 103.9 億 | 13 |  |
-| 11 | INTC | Intel Corp | 56.28 | +7.71% | 97.4 億 | 14 |  |
-| 12 | META | Meta Platforms, Inc. Class A Common Stock | 610.15 | +0.84% | 96.7 億 | 10 |  |
-| 13 | AVGO | Broadcom Inc. Common Stock | 293.69 | +0.74% | 96.0 億 | 11 |  |
-| 14 | TSM | Taiwan Semiconductor Manufacturing Company Ltd. | 375.44 | +6.33% | 89.3 億 | 12 |  |
-| 15 | GOOG | Alphabet Inc. Class C Capital Stock | 283.93 | +0.78% | 70.1 億 | 15 |  |
-| 16 | GEV | GE Vernova Inc. | 774.11 | +0.47% | 56.2 億 | 26 |  |
-| 17 | ORCL | Oracle Corp | 116.10 | +0.82% | 54.8 億 | 21 |  |
-| 18 | LLY | Eli Lilly & Co. | 1354.00 | -0.79% | 51.8 億 | 19 |  |
-| 19 | MRVL | Marvell Technology, Inc. Common Stock | 141.20 | +5.73% | 47.2 億 | 16 |  |
-| 20 | APP | Applovin Corporation Class A Common Stock | 391.22 | +9.86% | 45.1 億 | 18 |  |
+| 1 | NVDA | Nvidia Corp | 178.67 | -4.27% | 818.4 億 | 1 |  |
+| 2 | AMD | Advanced Micro Devices | 508.58 | +13.26% | 254.7 億 | 3 |  |
+| 3 | MU | Micron Technology, Inc. | 733.15 | +6.25% | 233.5 億 | 2 |  |
+| 4 | AAPL | Apple Inc. | 350.69 | +2.43% | 170.8 億 | 4 |  |
+| 5 | SPCX | Space Exploration Technologies Corp. Class A Common Stock | 142.07 | +5.81% | 145.9 億 | 5 |  |
+| 6 | AMZN | Amazon.Com Inc | 266.93 | +2.94% | 138.7 億 | 9 |  |
+| 7 | MSFT | Microsoft Corp | 545.18 | +2.75% | 137.9 億 | 7 |  |
+| 8 | TSLA | Tesla, Inc. Common Stock | 378.05 | +5.54% | 136.9 億 | 8 |  |
+| 9 | SNDK | Sandisk Corporation Common Stock | 886.51 | +6.16% | 122.9 億 | 6 |  |
+| 10 | META | Meta Platforms, Inc. Class A Common Stock | 641.37 | +5.12% | 122.7 億 | 12 |  |
+| 11 | AVGO | Broadcom Inc. Common Stock | 319.48 | +8.78% | 116.4 億 | 13 |  |
+| 12 | GOOGL | Alphabet Inc. Class A Common Stock | 288.15 | +1.18% | 106.2 億 | 10 |  |
+| 13 | INTC | Intel Corp | 59.37 | +5.49% | 86.2 億 | 11 |  |
+| 14 | GOOG | Alphabet Inc. Class C Capital Stock | 286.01 | +0.73% | 69.5 億 | 15 |  |
+| 15 | TSM | Taiwan Semiconductor Manufacturing Company Ltd. | 388.62 | +3.51% | 60.9 億 | 14 |  |
+| 16 | LLY | Eli Lilly & Co. | 1411.95 | +4.28% | 56.7 億 | 18 |  |
+| 17 | MRVL | Marvell Technology, Inc. Common Stock | 154.60 | +9.49% | 51.6 億 | 19 |  |
+| 18 | PLTR | Palantir Technologies Inc. Class A Common Stock | 169.20 | +5.50% | 40.2 億 | 23 |  |
+| 19 | AMAT | Applied Materials Inc | 370.55 | +11.37% | 40.2 億 | 31 |  |
+| 20 | LRCX | Lam Research Corp | 221.31 | +10.41% | 36.6 億 | 26 |  |
 
 ## 2. 整體盤面
 | ETF 代理 | 收盤 | 漲跌幅 |
 |---|---|---|
-| SPY | 735.29 | +0.31% |
-| QQQ | 656.10 | +1.40% |
-| DIA | 512.22 | -0.40% |
-| IWM | 273.67 | +0.99% |
-| SMH | 463.96 | +3.62% |
-| TLT | 81.92 | -0.01% |
-| GLD | 372.52 | -0.79% |
-| USO | 148.41 | +0.13% |
-| UUP | 29.13 | +0.73% |
-| VIXY | 21.03 | -0.90% |
+| SPY | 752.69 | +2.37% |
+| QQQ | 679.35 | +3.54% |
+| DIA | 523.33 | +2.17% |
+| IWM | 282.51 | +3.23% |
+| SMH | 487.41 | +5.05% |
+| TLT | 81.96 | +0.05% |
+| GLD | 379.53 | +1.88% |
+| USO | 142.66 | -3.87% |
+| UUP | 28.97 | -0.55% |
+| VIXY | 18.21 | -13.41% |
 
-漲跌家數:上漲 3553 / 下跌 2670(全市場(含ETF,價格≥1、量≥5萬股));全市場成交金額約 1.15 兆 美元。
+漲跌家數:上漲 5186 / 下跌 1092(全市場(含ETF,價格≥1、量≥5萬股));全市場成交金額約 1.14 兆 美元。
 
 ## 3. 新進前 20 名公司
-### GEV
-- 來源:[The Motley Fool](https://www.fool.com/coverage/better-buy/2026/11/06/ge-vernova-vs-vistra-which-industrials-stock-is-a-better-buy-for-2027/?source=iedfolrf0000001) GE Vernova vs. Vistra: Which Industrials Stock Is a Better Buy for 2027?
-- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3023819/should-you-invest-in-the-ishares-u-s-power-infrastructure-etf-powr?cid=CS-ZC-FT-sector_etf-3023819) Should You Invest in the iShares U.S. Power Infrastructure ETF (POWR)?
-- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/04/venture-global-wants-ai-utility-gigawatt-plan/?source=iedfolrf0000001) Venture Global Wants to Be an "AI Utility." Its 10-Gigawatt Plan Still Needs Customers.
+### PLTR
+- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/10/bill-ackman-and-warren-buffett-both-have-the-same-warning-about-the-stock-market/?source=iedfolrf0000001) Bill Ackman and Warren Buffett Both Have the Same Warning About the Stock Market
+- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/10/as-democrats-take-over-congress-is-palantir-stock-at-risk/?source=iedfolrf0000001) As Democrats Take Over Congress, Is Palantir Stock at Risk?
+- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/09/these-3-stocks-fell-after-strong-earnings-here-s-the-one-i-d-buy-right-now/?source=iedfolrf0000001) These 3 Stocks Just Fell After Strong Earnings. Here’s the One I’d Buy Right Now
 
-### ORCL
-- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/07/advanced-micro-devices-amd-crashed-1-trillion-buy/?source=iedfolrf0000001) Advanced Micro Devices (AMD) Recently Crashed Out of the $1 Trillion Club. Should You Buy the Dip?
-- 來源:[The Motley Fool](https://www.fool.com/coverage/better-buy/2026/11/06/cerebras-systems-vs-nebius-which-artificial-intelligence-stock-is-a-better-buy-going-into-2027/?source=iedfolrf0000001) Cerebras Systems vs. Nebius: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?
-- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/06/oracle-just-sold-usd10-billion-of-stock-at-usd116-a-share-is-the-stock-a-buy-at-that-price/?source=iedfolrf0000001) Oracle Just Sold $10 Billion of Stock at $116 a Share. Is the Stock a Buy at That Price?
+### AMAT
+- 來源:[The Motley Fool](https://www.fool.com/coverage/charts/2026/11/09/applied-materials-vs-dell-technologies-comparing-stable-vs-accelerating-revenue-between-these-artificial-intelligence-companies/?source=iedfolrf0000001) Applied Materials vs. Dell Technologies: Comparing Stable vs. Accelerating Revenue Between These Artificial Intelligence Companies
+- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3026163/amat-to-post-q4-earnings-time-to-buy-sell-or-hold-the-stock?cid=CS-ZC-FT-analyst_blog|most_popular_stocks-3026163) AMAT to Post Q4 Earnings: Time to Buy, Sell or Hold the Stock?
+- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3025992/applied-materials-cisco-berkshire-hathaway-nvidia-micron-and-alphabet-are-part-of-zacks-earnings-preview?cid=CS-ZC-FT-press_releases-3025992) Applied Materials, Cisco, Berkshire Hathaway, Nvidia, Micron and Alphabet are part of Zacks Earnings Preview
+
+### LRCX
+- 來源:[GlobeNewswire Inc.](https://www.globenewswire.com/news-release/2026/11/10/3399152/0/en/pragmatic-semiconductor-appoints-mercedes-johnson-to-board-of-directors.html) Pragmatic Semiconductor appoints Mercedes Johnson to Board of Directors
+- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3026163/amat-to-post-q4-earnings-time-to-buy-sell-or-hold-the-stock?cid=CS-ZC-FT-analyst_blog|most_popular_stocks-3026163) AMAT to Post Q4 Earnings: Time to Buy, Sell or Hold the Stock?
+- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/06/5-companies-buying-back-their-own-stock-hand-over-fist-as-the-stock-market-sells-off/?source=iedfolrf0000001) 5 Companies Buying Back Their Own Stock Hand Over Fist As the Stock Market Sells Off
 
 ## 4. 劇烈波動(±3.0%)
 | 代碼 | 名次 | 漲跌幅 | 成交金額 |
 |---|---|---|---|
-| AMD | 3 | +11.04% | 203.7 億 |
-| APP | 20 | +9.86% | 45.1 億 |
-| SPCX | 5 | +8.62% | 152.7 億 |
-| INTC | 11 | +7.71% | 97.4 億 |
-| TSM | 14 | +6.33% | 89.3 億 |
-| MRVL | 19 | +5.73% | 47.2 億 |
-| MU | 2 | +5.12% | 312.4 億 |
-| TSLA | 8 | +4.23% | 131.4 億 |
-| SNDK | 6 | +3.55% | 151.5 億 |
+| AMD | 2 | +13.26% | 254.7 億 |
+| AMAT | 19 | +11.37% | 40.2 億 |
+| LRCX | 20 | +10.41% | 36.6 億 |
+| MRVL | 17 | +9.49% | 51.6 億 |
+| AVGO | 11 | +8.78% | 116.4 億 |
+| MU | 3 | +6.25% | 233.5 億 |
+| SNDK | 9 | +6.16% | 122.9 億 |
+| SPCX | 5 | +5.81% | 145.9 億 |
+| TSLA | 8 | +5.54% | 136.9 億 |
+| PLTR | 18 | +5.50% | 40.2 億 |
+| INTC | 13 | +5.49% | 86.2 億 |
+| META | 10 | +5.12% | 122.7 億 |
+| LLY | 16 | +4.28% | 56.7 億 |
+| NVDA | 1 | -4.27% | 818.4 億 |
+| TSM | 15 | +3.51% | 60.9 億 |
 
-- AMD 相關新聞:[Advanced Micro Devices (AMD) Recently Crashed Out of the $1 Trillion Club. Should You Buy the Dip?](https://www.fool.com/investing/2026/11/07/advanced-micro-devices-amd-crashed-1-trillion-buy/?source=iedfolrf0000001);[1 Reason to Buy AMD Stock Before 2027](https://www.fool.com/investing/2026/11/07/1-reason-to-buy-amd-stock-before-2027/?source=iedfolrf0000001);[Stock Market Today, Nov. 6: AMD Surges 11% on Record Quarterly Revenue and Stronger Growth Outlook](https://www.fool.com/coverage/stock-market-today/2026/11/06/stock-market-today-nov-6-amd-surges-11-on-record-quarterly-revenue-and-stronger-growth-outlook/?source=iedfolrf0000001)
-- APP 相關新聞:[הודעה בנוגע ל-APP: רוזן, משרד עורכי דין מדורג ומוביל, קורא למשקיעים ב- AppLovin Corporation לשכור ייעוץ משפטי לקראת המועד החשוב ב-16 בנובמבר במסגרת תביעה ייצוגית בניירות הערך – APP](https://www.globenewswire.com/news-release/2026/11/07/3397941/673/he/%D7%94%D7%95%D7%93%D7%A2%D7%94-%D7%91%D7%A0%D7%95%D7%92%D7%A2-%D7%9C-app-%D7%A8%D7%95%D7%96%D7%9F-%D7%9E%D7%A9%D7%A8%D7%93-%D7%A2%D7%95%D7%A8%D7%9B%D7%99-%D7%93%D7%99%D7%9F-%D7%9E%D7%93%D7%95%D7%A8%D7%92-%D7%95%D7%9E%D7%95%D7%91%D7%99%D7%9C-%D7%A7%D7%95%D7%A8%D7%90-%D7%9C%D7%9E%D7%A9%D7%A7%D7%99%D7%A2%D7%99%D7%9D-%D7%91-applovin-corporation-%D7%9C%D7%A9%D7%9B%D7%95%D7%A8-%D7%99%D7%99%D7%A2%D7%95%D7%A5-%D7%9E%D7%A9%D7%A4%D7%98%D7%99-%D7%9C%D7%A7%D7%A8%D7%90%D7%AA-%D7%94%D7%9E%D7%95%D7%A2%D7%93-%D7%94%D7%97%D7%A9%D7%95%D7%91-%D7%91-16-%D7%91%D7%A0%D7%95%D7%91%D7%9E%D7%91%D7%A8-%D7%91%D7%9E%D7%A1%D7%92%D7%A8%D7%AA-%D7%AA%D7%91%D7%99%D7%A2%D7%94-%D7%99%D7%99%D7%A6%D7%95%D7%92%D7%99%D7%AA-%D7%91%D7%A0%D7%99%D7%99%D7%A8%D7%95%D7%AA-%D7%94%D7%A2%D7%A8%D7%9A-app.html);[APP DEADLINE NOTICE: ROSEN, A TOP RANKED LAW FIRM, Encourages AppLovin Corporation Investors to Secure Counsel Before Important November 16 Deadline in Securities Class Action – APP](https://www.globenewswire.com/news-release/2026/11/07/3397930/673/en/app-deadline-notice-rosen-a-top-ranked-law-firm-encourages-applovin-corporation-investors-to-secure-counsel-before-important-november-16-deadline-in-securities-class-action-app.html);[Kaplan Fox Reminds AppLovin Corporation (NASDAQ: APP) Investors of an Approaching Securities Class Action Deadline on November 16, 2026](https://www.globenewswire.com/news-release/2026/11/06/3397817/1020/en/kaplan-fox-reminds-applovin-corporation-nasdaq-app-investors-of-an-approaching-securities-class-action-deadline-on-november-16-2026.html)
-- SPCX 相關新聞:[Prediction: SpaceX Will Not Cancel the Falcon 9 in 2028](https://www.fool.com/investing/2026/11/07/prediction-spacex-will-not-cancel-the-falcon-9-in/?source=iedfolrf0000001);[Texas Gov.-Elect Gina Hinojosa Just Delivered Fantastic News for SpaceX Investors](https://www.fool.com/investing/2026/11/06/texas-gov-elect-gina-hinojosa-just-delivered-fanta/?source=iedfolrf0000001);[Can SPCX's Tie-Up With QCOM Strengthen Its Position in the 5G Market?](https://www.zacks.com/stock/news/3025708/can-spcx-s-tie-up-with-qcom-strengthen-its-position-in-the-5g-market?cid=CS-ZC-FT-analyst_blog|quick_take-3025708)
-- INTC 相關新聞:[Here's Where I Think Intel Stock Will Be at the End of 2030](https://www.fool.com/investing/2026/11/07/here-s-where-i-think-intel-stock-will-be-at-the-end-of-2030/?source=iedfolrf0000001);[Stock Market Today, Nov. 6: AMD Surges 11% on Record Quarterly Revenue and Stronger Growth Outlook](https://www.fool.com/coverage/stock-market-today/2026/11/06/stock-market-today-nov-6-amd-surges-11-on-record-quarterly-revenue-and-stronger-growth-outlook/?source=iedfolrf0000001);[Compute Express Link (CXL) Memory Market Size, Share, Trends and Global Forecast 2026-2036 | AI Infrastructure and Rack-Scale Pooling Fuel 27% CAGR and a $16.7 Billion Opportunity](https://www.globenewswire.com/news-release/2026/11/06/3397811/28124/en/compute-express-link-cxl-memory-market-size-share-trends-and-global-forecast-2026-2036-ai-infrastructure-and-rack-scale-pooling-fuel-27-cagr-and-a-16-7-billion-opportunity.html)
-- TSM 相關新聞:[SONY Q2 Earnings Call Highlights Raised Outlook and Gaming Growth](https://www.zacks.com/stock/news/3025574/sony-q2-earnings-call-highlights-raised-outlook-and-gaming-growth?cid=CS-ZC-FT-analyst_blog_plus|earnings_call_takeaways-3025574);[Should You Buy Nvidia Stock Before Nov. 17?](https://www.fool.com/investing/2026/11/05/should-you-buy-nvidia-stock-before-nov-17/?source=iedfolrf0000001);[Advanced Micro Devices vs. Taiwan Semiconductor Manufacturing: The AI Sell-Off Is Exposing a Critical Difference Investors Shouldn't Ignore for 2027](https://www.fool.com/coverage/better-buy/2026/11/05/advanced-micro-devices-vs-taiwan-semiconductor-manufacturing-the-ai-sell-off-is-exposing-a-critical-difference-investors-shouldn-t-ignore-for-2027/?source=iedfolrf0000001)
-- MRVL 相關新聞:[Q4 QQQ Roadmap: Navigating AI Turbulence & Market Headwinds](https://www.zacks.com/stock/news/3025881/q4-qqq-roadmap-navigating-ai-turbulence-market-headwinds?cid=CS-ZC-FT-weekend_wisdom-3025881);[GFS or MRVL: Which Is the Better Value Stock Right Now?](https://www.zacks.com/stock/news/3025758/gfs-or-mrvl-which-is-the-better-value-stock-right-now?cid=CS-ZC-FT-fundamental_analysis|yseop_template_3-3025758);[Should First Trust NASDAQ-100 Select Equal Weight ETF (QQEW) Be on Your Investing Radar?](https://www.zacks.com/stock/news/3025204/should-first-trust-nasdaq-100-select-equal-weight-etf-qqew-be-on-your-investing-radar?cid=CS-ZC-FT-style_box_etf-3025204)
-- MU 相關新聞:[Donald Trump's Investment Team Sold Micron. Here's What Investors Should Know Before Following the Money.](https://www.fool.com/investing/2026/11/07/donald-trumps-investment-team-sold-micron-heres-wh/?source=iedfolrf0000001);[Here's What a $10,000 Investment in Micron Stock Could Be Worth in 2028 (Hint: Big Gains Ahead)](https://www.fool.com/investing/2026/11/07/heres-what-a-10000-investment-in-micron-stock-co/?source=iedfolrf0000001);[Q3 Earnings Update: Broad-Based Growth, Key Sector Outliers, and What's Ahead for Q4](https://www.zacks.com/commentary/3025956/q3-earnings-update-broad-based-growth-key-sector-outliers-and-what-s-ahead-for-q4?cid=CS-ZC-FT-earnings_preview-3025956)
-- TSLA 相關新聞:[If I Could Buy and Hold Only 1 Artificial Intelligence (AI) Stock Through a Democratic Congress, It Would Be This One](https://www.fool.com/investing/2026/11/06/if-i-could-buy-and-hold-only-1-artificial-intellig/?source=iedfolrf0000001);[Cybertruck's Days Are Numbered. Here's What Tesla Has Planned.](https://www.fool.com/investing/2026/11/06/cybertruck-s-days-are-numbered-here-s-what-tesla-has-planned/?source=iedfolrf0000001);[Tesla, Inc. (TSLA) Is a Trending Stock: Facts to Know Before Betting on It](https://www.zacks.com/stock/news/3025339/tesla-inc-tsla-is-a-trending-stock-facts-to-know-before-betting-on-it?cid=CS-ZC-FT-fundamental_analysis|most_searched_stocks-3025339)
-- SNDK 相關新聞:[Sandisk Stock Has Lost About 64% Since June. Here's the Price at Which I'd Buy It.](https://www.fool.com/investing/2026/11/06/sandisk-stock-has-lost-about-64-since-june-here-s-the-price-at-which-i-d-buy-it/?source=iedfolrf0000001);[Q4 QQQ Roadmap: Navigating AI Turbulence & Market Headwinds](https://www.zacks.com/stock/news/3025881/q4-qqq-roadmap-navigating-ai-turbulence-market-headwinds?cid=CS-ZC-FT-weekend_wisdom-3025881);[The Cheapest AI Stocks to Buy Now](https://www.zacks.com/stock/news/3025775/the-cheapest-ai-stocks-to-buy-now?cid=CS-ZC-FT-value_investor-3025775)
+- AMD 相關新聞:[Stock Market Today, Nov. 9: Nvidia Stock Plunges 4% on Jensen Huang Investigation as Nasdaq Surges Nearly 3%](https://www.fool.com/coverage/stock-market-today/2026/11/09/stock-market-today-nov-9-nvidia-stock-plunges-4-on-jensen-huang-investigation-as-nasdaq-surges-nearly-3/?source=iedfolrf0000001);[Why Alphabet Stock Was Moving Higher Today](https://www.fool.com/investing/2026/11/09/why-alphabet-stock-was-moving-higher-today/?source=iedfolrf0000001);[MU or AMD: Which Is the Better Value Stock Right Now?](https://www.zacks.com/stock/news/3026589/mu-or-amd-which-is-the-better-value-stock-right-now?cid=CS-ZC-FT-fundamental_analysis|yseop_template_3-3026589)
+- AMAT 相關新聞:[Applied Materials vs. Dell Technologies: Comparing Stable vs. Accelerating Revenue Between These Artificial Intelligence Companies](https://www.fool.com/coverage/charts/2026/11/09/applied-materials-vs-dell-technologies-comparing-stable-vs-accelerating-revenue-between-these-artificial-intelligence-companies/?source=iedfolrf0000001);[AMAT to Post Q4 Earnings: Time to Buy, Sell or Hold the Stock?](https://www.zacks.com/stock/news/3026163/amat-to-post-q4-earnings-time-to-buy-sell-or-hold-the-stock?cid=CS-ZC-FT-analyst_blog|most_popular_stocks-3026163);[Applied Materials, Cisco, Berkshire Hathaway, Nvidia, Micron and Alphabet are part of Zacks Earnings Preview](https://www.zacks.com/stock/news/3025992/applied-materials-cisco-berkshire-hathaway-nvidia-micron-and-alphabet-are-part-of-zacks-earnings-preview?cid=CS-ZC-FT-press_releases-3025992)
+- LRCX 相關新聞:[Pragmatic Semiconductor appoints Mercedes Johnson to Board of Directors](https://www.globenewswire.com/news-release/2026/11/10/3399152/0/en/pragmatic-semiconductor-appoints-mercedes-johnson-to-board-of-directors.html);[AMAT to Post Q4 Earnings: Time to Buy, Sell or Hold the Stock?](https://www.zacks.com/stock/news/3026163/amat-to-post-q4-earnings-time-to-buy-sell-or-hold-the-stock?cid=CS-ZC-FT-analyst_blog|most_popular_stocks-3026163);[5 Companies Buying Back Their Own Stock Hand Over Fist As the Stock Market Sells Off](https://www.fool.com/investing/2026/11/06/5-companies-buying-back-their-own-stock-hand-over-fist-as-the-stock-market-sells-off/?source=iedfolrf0000001)
+- MRVL 相關新聞:[Why Marvell Technology Stock Fell Hard in October](https://www.fool.com/investing/2026/11/09/why-marvell-technology-stock-fell-hard-in-october/?source=iedfolrf0000001);[Marvell Stock Fell 58% From Its Record. History Says What Followed Its Last 4 Drops This Deep.](https://www.fool.com/investing/2026/11/09/marvell-stock-fell-58-from-its-record-history-says-what-followed-its-last-4-drops-this-deep/?source=iedfolrf0000001);[Intel, Arm, and Marvell Have Each Been Cut in Half Since June. Only 1 Is a Stock I'd Buy Now.](https://www.fool.com/investing/2026/11/08/intel-arm-and-marvell-have-each-been-cut-in-half-since-june-only-1-is-a-stock-i-d-buy-now/?source=iedfolrf0000001)
+- AVGO 相關新聞:[Pragmatic Semiconductor appoints Mercedes Johnson to Board of Directors](https://www.globenewswire.com/news-release/2026/11/10/3399152/0/en/pragmatic-semiconductor-appoints-mercedes-johnson-to-board-of-directors.html);[Stock Market Today, Nov. 9: Nvidia Stock Plunges 4% on Jensen Huang Investigation as Nasdaq Surges Nearly 3%](https://www.fool.com/coverage/stock-market-today/2026/11/09/stock-market-today-nov-9-nvidia-stock-plunges-4-on-jensen-huang-investigation-as-nasdaq-surges-nearly-3/?source=iedfolrf0000001);[If the Stock Market Crashes, I'm Loading Up on These 2 No-Brainer ETFs](https://www.fool.com/investing/2026/11/09/if-the-stock-market-crashes-im-loading-up-on-these/?source=iedfolrf0000001)
+- MU 相關新聞:[Why Micron Technology Stock Gained On Monday](https://www.fool.com/investing/2026/11/09/why-micron-technology-stock-gained-on-monday/?source=iedfolrf0000001);[Is Micron a Millionaire-Maker Stock?](https://www.fool.com/investing/2026/11/09/is-micron-a-millionaire-maker-stock/?source=iedfolrf0000001);[Why Micron Stock Fell 17% Last Month](https://www.fool.com/investing/2026/11/09/why-micron-stock-fell-17-last-month/?source=iedfolrf0000001)
+- SNDK 相關新聞:[Sandisk Stock Has Collapsed by 65%, but It's Still Undergoing an 8-for-1 Stock Split on Nov. 19. Here's Why I'm Still Not Buying Shares Amidst This Nasdaq Market Slump.](https://www.fool.com/investing/2026/11/10/sandisk-stock-has-collapsed-65-and-is-undergoing-a/?source=iedfolrf0000001);[Zacks Value Investor Highlights: MU, SNDK, SANM, STRL and FIX](https://www.zacks.com/stock/news/3026017/zacks-value-investor-highlights-mu-sndk-sanm-strl-and-fix?cid=CS-ZC-FT-press_releases-3026017);[AI Stocks Are Falling; Bitcoin Is Holding Ground. Here's What Could Come Next.](https://www.fool.com/investing/2026/11/07/ai-stocks-are-falling-bitcoin-is-holding-ground/?source=iedfolrf0000001)
+- SPCX 相關新聞:[Bill Ackman and Warren Buffett Both Have the Same Warning About the Stock Market](https://www.fool.com/investing/2026/11/10/bill-ackman-and-warren-buffett-both-have-the-same-warning-about-the-stock-market/?source=iedfolrf0000001);[Prediction: Here's How Much SpaceX Will Be Worth by the End of 2027](https://www.fool.com/investing/2026/11/10/predict-how-much-spacex-stock-worth-end-2027/?source=iedfolrf0000001);[Interesting News for SpaceX Stock and Tesla Stock Investors](https://www.fool.com/investing/2026/11/10/interesting-news-for-spacex-stock-and-tesla-stock-investors/?source=iedfolrf0000001)
+- TSLA 相關新聞:[The Best Stock to Buy Right Now in November?](https://www.fool.com/investing/2026/11/10/the-best-stock-to-buy-right-now-in-november/?source=iedfolrf0000001);[Interesting News for SpaceX Stock and Tesla Stock Investors](https://www.fool.com/investing/2026/11/10/interesting-news-for-spacex-stock-and-tesla-stock-investors/?source=iedfolrf0000001);[Can OnStar and Super Cruise Drive GM's Digital Revenue Growth?](https://www.zacks.com/stock/news/3026164/can-onstar-and-super-cruise-drive-gm-s-digital-revenue-growth?cid=CS-ZC-FT-analyst_blog|quick_take-3026164)
+- PLTR 相關新聞:[Bill Ackman and Warren Buffett Both Have the Same Warning About the Stock Market](https://www.fool.com/investing/2026/11/10/bill-ackman-and-warren-buffett-both-have-the-same-warning-about-the-stock-market/?source=iedfolrf0000001);[As Democrats Take Over Congress, Is Palantir Stock at Risk?](https://www.fool.com/investing/2026/11/10/as-democrats-take-over-congress-is-palantir-stock-at-risk/?source=iedfolrf0000001);[These 3 Stocks Just Fell After Strong Earnings. Here’s the One I’d Buy Right Now](https://www.fool.com/investing/2026/11/09/these-3-stocks-fell-after-strong-earnings-here-s-the-one-i-d-buy-right-now/?source=iedfolrf0000001)
+- INTC 相關新聞:[ASML Raises 2026 Guidance as AI Demand Accelerates Capacity Expansion](https://www.zacks.com/stock/news/3026543/asml-raises-2026-guidance-as-ai-demand-accelerates-capacity-expansion?cid=CS-ZC-FT-analyst_blog_plus|zer_report_insights-3026543);[ASML Falls 20% in the Past Month as AI Growth Meets Execution Risk](https://www.zacks.com/stock/news/3026536/asml-falls-20-in-the-past-month-as-ai-growth-meets-execution-risk?cid=CS-ZC-FT-analyst_blog_plus|zer_report_insights-3026536);[INTC Stock Down 57% in the Past 6 Months: Should You Exercise Caution?](https://www.zacks.com/stock/news/3026501/intc-stock-down-57-in-the-past-6-months-should-you-exercise-caution?cid=CS-ZC-FT-analyst_blog|most_popular_stocks-3026501)
+- META 相關新聞:[The Best Stock to Buy Right Now in November?](https://www.fool.com/investing/2026/11/10/the-best-stock-to-buy-right-now-in-november/?source=iedfolrf0000001);[This Vanguard ETF Has Outperformed the S&P 500 and Nasdaq Composite](https://www.fool.com/investing/2026/11/10/this-vanguard-etf-has-outperformed-the-sp-500-and/?source=iedfolrf0000001);[Alphabet, Meta, and Oracle Are All Teaming Up to Disrupt Nvidia's Biggest Competitive Advantage](https://www.fool.com/investing/2026/11/10/alphabet-meta-and-oracle-are-all-teaming-up-to-dis/?source=iedfolrf0000001)
+- LLY 相關新聞:無
+- NVDA 相關新聞:無
+- TSM 相關新聞:無
 
 ## 5. 技術線型篩選
 範圍:成交值前 50 名。型態A=區間整理且量縮;型態B=週MACD多方、日MACD回檔。
 
 **型態A:** MRNA
-**型態B:** LLY
+**型態B:** AAPL、TSLA、LLY、WMT、V、NXPI
 **同時符合A與B:** 無
 
 接近名單(僅差一項):
 - AAPL(型態A):量未縮
-- AAPL(型態B):週MACD未維持多方
-- MSFT(型態A):量未縮
-- MSFT(型態B):週MACD未維持多方
-- TSLA(型態A):量未縮
 - AMZN(型態A):量未縮
-- APP(型態B):日MACD未呈回檔修正
+- MSFT(型態A):量未縮
+- TSLA(型態A):量未縮
 - MRNA(型態B):日MACD未呈回檔修正
-- V(型態B):日MACD未呈回檔修正
-- QCOM(型態A):量未縮
-- WMT(型態B):日MACD未呈回檔修正
+- APP(型態B):日MACD未呈回檔修正
 - TXN(型態A):量未縮
 - TXN(型態B):週MACD未維持多方
+- V(型態A):量未縮
+- QCOM(型態A):量未縮
+- ADI(型態A):量未縮
+- ADI(型態B):週MACD未維持多方
+- NXPI(型態A):量未縮
 - COST(型態B):日MACD未呈回檔修正
-- JNJ(型態A):量未縮
-- UNH(型態A):量未縮
-- UNH(型態B):週MACD未維持多方
+- NFLX(型態A):跌破60MA且均線下彎
+- CEG(型態A):量未縮
 
 資料不足無法驗證:SKHY
 
