@@ -1230,5 +1230,37 @@
   "shares": 354307379,
   "market_cap": 97820724268.10999,
   "fetched": "2026-11-10"
+ },
+ "FOXA": {
+  "name": "Fox Corporation Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 421801414,
+  "market_cap": 28416761261.18,
+  "fetched": "2026-11-11"
+ },
+ "JHX": {
+  "name": "James Hardie Industries plc",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 581654349,
+  "market_cap": 16897058838.45,
+  "fetched": "2026-11-11"
+ },
+ "AKAM": {
+  "name": "Akamai Technologies Inc",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 144229175,
+  "market_cap": 12073424239.25,
+  "fetched": "2026-11-11"
+ },
+ "TTWO": {
+  "name": "Take-Two Interactive Software Inc",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 187200000,
+  "market_cap": 42052608000.0,
+  "fetched": "2026-11-11"
  }
 }
