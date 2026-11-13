@@ -1262,5 +1262,93 @@
   "shares": 187200000,
   "market_cap": 42052608000.0,
   "fetched": "2026-11-11"
+ },
+ "GOVT": {
+  "name": "iShares U.S. Treasury Bond ETF",
+  "type": "ETF",
+  "exchange": "BATS",
+  "shares": 1939900000,
+  "market_cap": null,
+  "fetched": "2026-11-13"
+ },
+ "THRO": {
+  "name": "iShares U.S. Thematic Rotation Active ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 170800000,
+  "market_cap": null,
+  "fetched": "2026-11-13"
+ },
+ "CORO": {
+  "name": "iShares International Country Rotation Active ETF",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": null,
+  "market_cap": null,
+  "fetched": "2026-11-13"
+ },
+ "TLH": {
+  "name": "iShares 10-20 Year Treasury Bond ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 128500000,
+  "market_cap": null,
+  "fetched": "2026-11-13"
+ },
+ "BABA": {
+  "name": "Alibaba Group Holding Limited American Depositary Shares, each represents eight Ordinary Shares",
+  "type": "ADRC",
+  "exchange": "XNYS",
+  "shares": 2487744939,
+  "market_cap": 234743612444.04,
+  "fetched": "2026-11-13"
+ },
+ "IDEF": {
+  "name": "BlackRock ETF Trust iShares Defense Industrials and Tech Active ETF",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": null,
+  "market_cap": null,
+  "fetched": "2026-11-13"
+ },
+ "NVDL": {
+  "name": "GraniteShares ETF Trust GraniteShares 2x Long NVDA Daily ETF",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": 100350018,
+  "market_cap": null,
+  "fetched": "2026-11-13"
+ },
+ "IVE": {
+  "name": "iShares S&P 500 Value ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 213100000,
+  "market_cap": null,
+  "fetched": "2026-11-13"
+ },
+ "IUSB": {
+  "name": "iShares Trust iShares Core Universal USD Bond ETF",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": 1121800000,
+  "market_cap": null,
+  "fetched": "2026-11-13"
+ },
+ "SHY": {
+  "name": "iShares 1-3 Year Treasury Bond ETF",
+  "type": "ETF",
+  "exchange": "XNAS",
+  "shares": 337200000,
+  "market_cap": null,
+  "fetched": "2026-11-13"
+ },
+ "QLTY": {
+  "name": "GMO U.S. Quality ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 125700000,
+  "market_cap": null,
+  "fetched": "2026-11-13"
  }
 }

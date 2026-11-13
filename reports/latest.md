@@ -1,116 +1,109 @@
-# 美股盤後分析:2026-11-11(美東收盤)
+# 美股盤後分析:2026-11-12(美東收盤)
 
 > AI 未啟用或本次呼叫失敗,以下僅含程式計算的數據。
 
 ## 1. 成交值前 20 名
 | # | 代碼 | 名稱 | 收盤 | 漲跌幅 | 成交金額(美元) | 昨日名次 | 題材 |
 |---|---|---|---|---|---|---|---|
-| 1 | NVDA | Nvidia Corp | 173.73 | +2.87% | 583.2 億 | 1 |  |
-| 2 | MU | Micron Technology, Inc. | 811.30 | +11.89% | 295.6 億 | 3 |  |
-| 3 | AMD | Advanced Micro Devices | 552.90 | +7.32% | 252.7 億 | 2 |  |
-| 4 | SPCX | Space Exploration Technologies Corp. Class A Common Stock | 139.75 | -2.33% | 162.3 億 | 6 |  |
-| 5 | SNDK | Sandisk Corporation Common Stock | 977.69 | +13.69% | 160.2 億 | 5 |  |
-| 6 | MSFT | Microsoft Corp | 521.12 | -2.26% | 151.9 億 | 4 |  |
-| 7 | AAPL | Apple Inc. | 355.63 | +2.04% | 122.1 億 | 8 |  |
-| 8 | AVGO | Broadcom Inc. Common Stock | 345.22 | +3.99% | 117.6 億 | 9 |  |
-| 9 | TSLA | Tesla, Inc. Common Stock | 390.84 | +2.91% | 109.1 億 | 10 |  |
-| 10 | AMZN | Amazon.Com Inc | 266.17 | -1.74% | 101.5 億 | 7 |  |
-| 11 | META | Meta Platforms, Inc. Class A Common Stock | 628.77 | -1.97% | 99.5 億 | 11 |  |
-| 12 | CRWV | CoreWeave, Inc. Class A Common Stock | 60.77 | +24.71% | 97.2 億 | 16 |  |
-| 13 | INTC | Intel Corp | 62.50 | +7.52% | 83.3 億 | 13 |  |
-| 14 | GOOGL | Alphabet Inc. Class A Common Stock | 293.45 | +2.11% | 76.5 億 | 12 |  |
-| 15 | NBIS | Nebius Group N.V. Class A Ordinary Shares | 154.69 | +15.44% | 63.8 億 | 24 |  |
-| 16 | TSM | Taiwan Semiconductor Manufacturing Company Ltd. | 413.35 | +4.25% | 59.9 億 | 14 |  |
-| 17 | MRVL | Marvell Technology, Inc. Common Stock | 168.80 | +9.33% | 57.5 億 | 19 |  |
-| 18 | GOOG | Alphabet Inc. Class C Capital Stock | 290.63 | +2.00% | 53.3 億 | 17 |  |
-| 19 | ORCL | Oracle Corp | 128.38 | +8.82% | 49.5 億 | 26 |  |
-| 20 | STX | Seagate Technology Holdings PLC Ordinary Shares (Ireland) | 551.72 | +9.99% | 42.4 億 | 27 |  |
+| 1 | NVDA | Nvidia Corp | 166.19 | -4.34% | 1208.6 億 | 1 |  |
+| 2 | AMD | Advanced Micro Devices | 585.30 | +5.86% | 319.0 億 | 3 |  |
+| 3 | MU | Micron Technology, Inc. | 798.44 | -1.59% | 217.5 億 | 2 |  |
+| 4 | AVGO | Broadcom Inc. Common Stock | 364.36 | +5.54% | 158.7 億 | 8 |  |
+| 5 | SPCX | Space Exploration Technologies Corp. Class A Common Stock | 139.94 | +0.14% | 136.8 億 | 4 |  |
+| 6 | SNDK | Sandisk Corporation Common Stock | 937.46 | -4.11% | 122.9 億 | 5 |  |
+| 7 | TSLA | Tesla, Inc. Common Stock | 397.45 | +1.69% | 115.1 億 | 9 |  |
+| 8 | AAPL | Apple Inc. | 354.88 | -0.21% | 113.6 億 | 7 |  |
+| 9 | GOOGL | Alphabet Inc. Class A Common Stock | 298.70 | +1.79% | 106.0 億 | 14 |  |
+| 10 | MSFT | Microsoft Corp | 523.00 | +0.36% | 97.7 億 | 6 |  |
+| 11 | AMZN | Amazon.Com Inc | 267.44 | +0.48% | 92.9 億 | 10 |  |
+| 12 | NBIS | Nebius Group N.V. Class A Ordinary Shares | 128.64 | -16.84% | 90.2 億 | 15 |  |
+| 13 | GOOG | Alphabet Inc. Class C Capital Stock | 295.35 | +1.62% | 65.5 億 | 18 |  |
+| 14 | META | Meta Platforms, Inc. Class A Common Stock | 623.61 | -0.82% | 64.5 億 | 11 |  |
+| 15 | CRWV | CoreWeave, Inc. Class A Common Stock | 56.60 | -6.86% | 60.3 億 | 12 |  |
+| 16 | INTC | Intel Corp | 61.20 | -2.08% | 49.4 億 | 13 |  |
+| 17 | TSM | Taiwan Semiconductor Manufacturing Company Ltd. | 405.49 | -1.90% | 46.1 億 | 16 |  |
+| 18 | MRVL | Marvell Technology, Inc. Common Stock | 164.45 | -2.58% | 35.5 億 | 17 |  |
+| 19 | AMAT | Applied Materials Inc | 380.95 | -3.58% | 35.3 億 | 26 |  |
+| 20 | LLY | Eli Lilly & Co. | 1427.28 | -0.70% | 34.8 億 | 29 |  |
 
 ## 2. 整體盤面
 | ETF 代理 | 收盤 | 漲跌幅 |
 |---|---|---|
-| SPY | 759.81 | +1.32% |
-| QQQ | 690.38 | +2.31% |
-| DIA | 524.44 | +0.52% |
-| IWM | 283.09 | +0.89% |
-| SMH | 506.96 | +4.82% |
-| TLT | 80.92 | +0.05% |
-| GLD | 365.17 | -1.13% |
-| USO | 141.47 | +0.01% |
-| UUP | 29.35 | +0.69% |
-| VIXY | 16.93 | -6.77% |
+| SPY | 757.12 | -0.35% |
+| QQQ | 688.17 | -0.32% |
+| DIA | 522.47 | -0.38% |
+| IWM | 278.44 | -1.64% |
+| SMH | 501.73 | -1.03% |
+| TLT | 79.72 | -1.48% |
+| GLD | 354.89 | -2.82% |
+| USO | 146.07 | +3.25% |
+| UUP | 29.42 | +0.24% |
+| VIXY | 17.51 | +3.43% |
 
-漲跌家數:上漲 3811 / 下跌 2155(全市場(含ETF,價格≥1、量≥5萬股));全市場成交金額約 9553.9 億 美元。
+漲跌家數:上漲 1195 / 下跌 4942(全市場(含ETF,價格≥1、量≥5萬股));全市場成交金額約 1.02 兆 美元。
 
 ## 3. 新進前 20 名公司
-### NBIS
-- 來源:[The Motley Fool](https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-coreweave-surges-25-on-beat-and-raise-quarter/?source=iedfolrf0000001) Stock Market Today, Nov. 11: CoreWeave Surges 25% on Beat-and-Raise Quarter
-- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3027879/ppi-data-in-focus?cid=CS-ZC-FT-economic_highlights-3027879) PPI Data in Focus
-- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3027835/ai-trade-comes-back-post-coreweave-numbers?cid=CS-ZC-FT-ahead_of_wall_street-3027835) AI Trade Comes Back Post-CoreWeave Numbers
+### AMAT
+- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3029043/applied-materials-amat-q4-earnings-taking-a-look-at-key-metrics-versus-estimates?cid=CS-ZC-FT-fundamental_analysis|nfm-3029043) Applied Materials (AMAT) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates
+- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3029036/applied-materials-amat-tops-q4-earnings-and-revenue-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3029036) Applied Materials (AMAT) Tops Q4 Earnings and Revenue Estimates
+- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3028344/onto-innovation-s-57-6-gross-margin-can-it-rise-further-in-q4?cid=CS-ZC-FT-analyst_blog|quick_take-3028344) Onto Innovation's 57.6% Gross Margin: Can It Rise Further in Q4?
 
-### ORCL
-- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/12/texas-rethink-data-center-construction-ai-stock/?source=iedfolrf0000001) Texas Wants to Rethink Data Center Construction. Here's the AI Stock Most Exposed.
-- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/12/forget-nvidia-jensen-huang-affair-scandal-there-are-far-bigger-issues-with-the-ai-trade/?source=iedfolrf0000001) Forget Nvidia CEO Jensen Huang's Affair Scandal -- There Are Far Bigger Issues With the AI Trade
-- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/12/great-news-nvidia-micron-broadcom-amd-wall-street-mistake/?source=iedfolrf0000001) Great News for Nvidia, Micron, Broadcom, and AMD Stock Investors -- Wall Street Made a Mistake
-
-### STX
-- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3027965/netapp-s-q2-gross-margin-guide-is-another-sequential-dip-ahead?cid=CS-ZC-FT-analyst_blog|quick_take-3027965) NetApp's Q2 Gross Margin Guide: Is Another Sequential Dip Ahead?
-- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3027787/seagate-expands-storage-portfolio-with-firecuda-forge-launch?cid=CS-ZC-FT-analyst_blog|quick_take-3027787) Seagate Expands Storage Portfolio With FireCuda Forge Launch
+### LLY
+- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/13/this-etf-gained-23-this-year-is-still-worth-buying/?source=iedfolrf0000001) This ETF Has Gained 23% This Year. Is It Still Worth Buying in 2026?
+- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/13/predict-10k-invested-viking-therapeutics-obesity/?source=iedfolrf0000001) Prediction: $10,000 Invested in Viking Therapeutics Before Its Oral Phase 3 Readouts Could Be Worth This Much by 2028
+- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3028962/how-did-abbvie-s-immunology-franchise-fare-in-q3?cid=CS-ZC-FT-analyst_blog|quick_take-3028962) How Did AbbVie's Immunology Franchise Fare in Q3?
 
 ## 4. 劇烈波動(±3.0%)
 | 代碼 | 名次 | 漲跌幅 | 成交金額 |
 |---|---|---|---|
-| CRWV | 12 | +24.71% | 97.2 億 |
-| NBIS | 15 | +15.44% | 63.8 億 |
-| SNDK | 5 | +13.69% | 160.2 億 |
-| MU | 2 | +11.89% | 295.6 億 |
-| STX | 20 | +9.99% | 42.4 億 |
-| MRVL | 17 | +9.33% | 57.5 億 |
-| ORCL | 19 | +8.82% | 49.5 億 |
-| INTC | 13 | +7.52% | 83.3 億 |
-| AMD | 3 | +7.32% | 252.7 億 |
-| TSM | 16 | +4.25% | 59.9 億 |
-| AVGO | 8 | +3.99% | 117.6 億 |
+| NBIS | 12 | -16.84% | 90.2 億 |
+| CRWV | 15 | -6.86% | 60.3 億 |
+| AMD | 2 | +5.86% | 319.0 億 |
+| AVGO | 4 | +5.54% | 158.7 億 |
+| NVDA | 1 | -4.34% | 1208.6 億 |
+| SNDK | 6 | -4.11% | 122.9 億 |
+| AMAT | 19 | -3.58% | 35.3 億 |
 
-- CRWV 相關新聞:[Breakfast News: What’s Nvidia’s Biggest Risk?](https://www.fool.com/investing/breakfast-news/2026/11/12/breakfast-news/?source=iedfolrf0000001);[Texas Wants to Rethink Data Center Construction. Here's the AI Stock Most Exposed.](https://www.fool.com/investing/2026/11/12/texas-rethink-data-center-construction-ai-stock/?source=iedfolrf0000001);[Data Center Backlash Is Bipartisan, and That Changes the Math for AI Investors](https://www.fool.com/investing/2026/11/12/data-center-backlash-is-bipartisan-and-that-change/?source=iedfolrf0000001)
-- NBIS 相關新聞:[Stock Market Today, Nov. 11: CoreWeave Surges 25% on Beat-and-Raise Quarter](https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-coreweave-surges-25-on-beat-and-raise-quarter/?source=iedfolrf0000001);[PPI Data in Focus](https://www.zacks.com/stock/news/3027879/ppi-data-in-focus?cid=CS-ZC-FT-economic_highlights-3027879);[AI Trade Comes Back Post-CoreWeave Numbers](https://www.zacks.com/stock/news/3027835/ai-trade-comes-back-post-coreweave-numbers?cid=CS-ZC-FT-ahead_of_wall_street-3027835)
-- SNDK 相關新聞:[Seagate Expands Storage Portfolio With FireCuda Forge Launch](https://www.zacks.com/stock/news/3027787/seagate-expands-storage-portfolio-with-firecuda-forge-launch?cid=CS-ZC-FT-analyst_blog|quick_take-3027787);[Why Sandisk Stock Popped Today](https://www.fool.com/investing/2026/11/11/why-sandisk-stock-popped-today/?source=iedfolrf0000001);[1 Stock-Split AI Stock to Buy Before It Soars 328%, According to a Wall Street Analyst](https://www.fool.com/investing/2026/11/11/1-stock-split-ai-stock-buy-before-soar-328-wall-street/?source=iedfolrf0000001)
-- MU 相關新聞:[2 AI Robotics Stocks That Could Help Set You Up for Life](https://www.fool.com/investing/2026/11/12/2-ai-robotics-stocks-that-could-help-set-you-up-fo/?source=iedfolrf0000001);[Great News for Nvidia, Micron, Broadcom, and AMD Stock Investors -- Wall Street Made a Mistake](https://www.fool.com/investing/2026/11/12/great-news-nvidia-micron-broadcom-amd-wall-street-mistake/?source=iedfolrf0000001);[Q3 Earnings Results Reconfirm Broad-Based Strength as Outlook Improves](https://www.zacks.com/commentary/3028260/q3-earnings-results-reconfirm-broad-based-strength-as-outlook-improves?cid=CS-ZC-FT-earnings_outlook-3028260)
-- STX 相關新聞:[NetApp's Q2 Gross Margin Guide: Is Another Sequential Dip Ahead?](https://www.zacks.com/stock/news/3027965/netapp-s-q2-gross-margin-guide-is-another-sequential-dip-ahead?cid=CS-ZC-FT-analyst_blog|quick_take-3027965);[Seagate Expands Storage Portfolio With FireCuda Forge Launch](https://www.zacks.com/stock/news/3027787/seagate-expands-storage-portfolio-with-firecuda-forge-launch?cid=CS-ZC-FT-analyst_blog|quick_take-3027787)
-- MRVL 相關新聞:[Advanced Micro Devices vs. Marvell Technology: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?](https://www.fool.com/coverage/better-buy/2026/11/11/advanced-micro-devices-vs-marvell-technology-which-artificial-intelligence-stock-is-a-better-buy-going-into-2027/?source=iedfolrf0000001);[Should First Trust Growth Strength ETF (FTGS) Be on Your Investing Radar?](https://www.zacks.com/stock/news/3027439/should-first-trust-growth-strength-etf-ftgs-be-on-your-investing-radar?cid=CS-ZC-FT-style_box_etf-3027439);[Should First Trust Growth Strength ETF (FTGS) Be on Your Investing Radar?](https://www.zacks.com/stock/news/3026949/should-first-trust-growth-strength-etf-ftgs-be-on-your-investing-radar?cid=CS-ZC-FT-style_box_etf-3026949)
-- ORCL 相關新聞:[Texas Wants to Rethink Data Center Construction. Here's the AI Stock Most Exposed.](https://www.fool.com/investing/2026/11/12/texas-rethink-data-center-construction-ai-stock/?source=iedfolrf0000001);[Forget Nvidia CEO Jensen Huang's Affair Scandal -- There Are Far Bigger Issues With the AI Trade](https://www.fool.com/investing/2026/11/12/forget-nvidia-jensen-huang-affair-scandal-there-are-far-bigger-issues-with-the-ai-trade/?source=iedfolrf0000001);[Great News for Nvidia, Micron, Broadcom, and AMD Stock Investors -- Wall Street Made a Mistake](https://www.fool.com/investing/2026/11/12/great-news-nvidia-micron-broadcom-amd-wall-street-mistake/?source=iedfolrf0000001)
-- INTC 相關新聞:[Intel's CEO Bought $9.7 Million of Stock Right After It Plunged 29%. I'm Not Ready to Follow Him In.](https://www.fool.com/investing/2026/11/12/intel-s-ceo-bought-usd9-7-million-of-stock-right-after-it-plunged-29-i-m-not-ready-to-follow-him-in/?source=iedfolrf0000001);[Advanced Micro Devices vs. Marvell Technology: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?](https://www.fool.com/coverage/better-buy/2026/11/11/advanced-micro-devices-vs-marvell-technology-which-artificial-intelligence-stock-is-a-better-buy-going-into-2027/?source=iedfolrf0000001);[Stock Market Today, Nov. 11: Intel Climbs on Broader Chip Rally as AI Infrastructure Demand Lifts Semiconductor Stocks](https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-intel-climbs-on-broader-chip-rally-as-ai-infrastructure-demand-lifts-semiconductor-stocks/?source=iedfolrf0000001)
-- AMD 相關新聞:[Breakfast News: What’s Nvidia’s Biggest Risk?](https://www.fool.com/investing/breakfast-news/2026/11/12/breakfast-news/?source=iedfolrf0000001);[Forget Buying All 7 "Magnificent Seven" Stocks. Here's How to Rank 6 Top AI Stocks Right Now (Hint: It Has to Do With Anthropic.)](https://www.fool.com/investing/2026/11/12/forget-buying-all-magnificent-seven/?source=iedfolrf0000001);[2 Quantum Computing Stocks That Could Help Set You Up for Life](https://www.fool.com/investing/2026/11/12/quantum-computing-stocks-help-set-up-ibm-qnt/?source=iedfolrf0000001)
-- TSM 相關新聞:[Dell Technologies vs. Taiwan Semiconductor: Which Technology Stock Is a Better Buy for 2027?](https://www.fool.com/coverage/better-buy/2026/11/11/dell-technologies-vs-taiwan-semiconductor-which-technology-stock-is-a-better-buy-for-2027/?source=iedfolrf0000001);[Is It Worth Investing in TSMC (TSM) Based on Wall Street's Bullish Views?](https://www.zacks.com/stock/news/3028170/is-it-worth-investing-in-tsmc-tsm-based-on-wall-street-s-bullish-views?cid=CS-ZC-FT-fundamental_analysis|average_broker_rating-3028170);[AI Sell-Off: Buy ANET, TSM & MU to Make Up for NVIDIA Losses](https://www.zacks.com/stock/news/3028041/ai-sell-off-buy-anet-tsm-mu-to-make-up-for-nvidia-losses?cid=CS-ZC-FT-analyst_blog|investment_ideas-3028041)
-- AVGO 相關新聞:[Breakfast News: What’s Nvidia’s Biggest Risk?](https://www.fool.com/investing/breakfast-news/2026/11/12/breakfast-news/?source=iedfolrf0000001);[Should You Buy Broadcom Stock Instead of Qualcomm Stock?](https://www.fool.com/investing/2026/11/12/should-you-buy-broadcom-stock-instead-of-qualcomm-stock/?source=iedfolrf0000001);[Great News for Nvidia, Micron, Broadcom, and AMD Stock Investors -- Wall Street Made a Mistake](https://www.fool.com/investing/2026/11/12/great-news-nvidia-micron-broadcom-amd-wall-street-mistake/?source=iedfolrf0000001)
+- NBIS 相關新聞:[Microsoft Just Piled Onto the Bad News for CoreWeave, Oracle, and Nebius](https://www.fool.com/investing/2026/11/13/microsoft-just-piled-onto-the-bad-news-for-neoclouds/?source=iedfolrf0000001);[Zacks Investment Ideas feature highlights: Nebius, CoreWeave, IREN and NVIDIA](https://www.zacks.com/stock/news/3029174/zacks-investment-ideas-feature-highlights-nebius-coreweave-iren-and-nvidia?cid=CS-ZC-FT-press_releases-3029174);[Stock Market Today, Nov. 12: Nebius Group Sinks Nearly 17% After Lowering 2026 Outlook](https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nebius-group-sinks-nearly-17-after-lowering-2026-outlook/?source=iedfolrf0000001)
+- CRWV 相關新聞:[Microsoft Just Piled Onto the Bad News for CoreWeave, Oracle, and Nebius](https://www.fool.com/investing/2026/11/13/microsoft-just-piled-onto-the-bad-news-for-neoclouds/?source=iedfolrf0000001);[Zacks Investment Ideas feature highlights: Nebius, CoreWeave, IREN and NVIDIA](https://www.zacks.com/stock/news/3029174/zacks-investment-ideas-feature-highlights-nebius-coreweave-iren-and-nvidia?cid=CS-ZC-FT-press_releases-3029174);[Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off.](https://www.fool.com/investing/2026/11/12/sandisk-stock-is-back-above-the-usd900-price-i-set-for-buying-it-here-s-why-i-m-holding-off/?source=iedfolrf0000001)
+- AMD 相關新聞:[Anthropic Delivers Huge News for Nvidia Stock, AMD Stock, Micron Stock, and Broadcom Stock Investors](https://www.fool.com/investing/2026/11/13/anthropic-delivers-huge-news-for-nvidia-stock-amd-stock-micron-stock-and-broadcom-stock-investors/?source=iedfolrf0000001);[The AI Trade Just Cracked. Here’s the Price at Which I’d Start Buying Nvidia.](https://www.fool.com/investing/2026/11/13/the-ai-trade-just-cracked-here-s-the-price-at-which-i-d-start-buying-nvidia/?source=iedfolrf0000001);[Is Nvidia Undervalued?](https://www.fool.com/investing/2026/11/12/is-nvidia-undervalued/?source=iedfolrf0000001)
+- AVGO 相關新聞:[Anthropic Delivers Huge News for Nvidia Stock, AMD Stock, Micron Stock, and Broadcom Stock Investors](https://www.fool.com/investing/2026/11/13/anthropic-delivers-huge-news-for-nvidia-stock-amd-stock-micron-stock-and-broadcom-stock-investors/?source=iedfolrf0000001);[The AI Trade Just Cracked. Here’s the Price at Which I’d Start Buying Nvidia.](https://www.fool.com/investing/2026/11/13/the-ai-trade-just-cracked-here-s-the-price-at-which-i-d-start-buying-nvidia/?source=iedfolrf0000001);[Buy These 3 Vanguard Mutual Funds for Outstanding Returns](https://www.zacks.com/stock/news/3029177/buy-these-3-vanguard-mutual-funds-for-outstanding-returns?cid=CS-ZC-FT-best_of_funds-3029177)
+- NVDA 相關新聞:[The S&P 500 Recently Experienced Its Worst Day Since 2025. Here's Why Investors Shouldn't Worry.](https://www.fool.com/investing/2026/11/13/sp-500-experienced-worst-day-since-2025-why-investors-not-worry/?source=iedfolrf0000001);[Anthropic Delivers Huge News for Nvidia Stock, AMD Stock, Micron Stock, and Broadcom Stock Investors](https://www.fool.com/investing/2026/11/13/anthropic-delivers-huge-news-for-nvidia-stock-amd-stock-micron-stock-and-broadcom-stock-investors/?source=iedfolrf0000001);[Amazon Is the Only "Magnificent Seven" Stock I'd Buy With $1,000 Right Now](https://www.fool.com/investing/2026/11/13/amazon-is-the-only-magnificent-seven-stock-id-buy/?source=iedfolrf0000001)
+- SNDK 相關新聞:[Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off.](https://www.fool.com/investing/2026/11/12/sandisk-stock-is-back-above-the-usd900-price-i-set-for-buying-it-here-s-why-i-m-holding-off/?source=iedfolrf0000001);[Zacks.com featured highlights include Micron, NVIDIA and Sandisk](https://www.zacks.com/stock/news/3028439/zacks-com-featured-highlights-include-micron-nvidia-and-sandisk?cid=CS-ZC-FT-press_releases-3028439);[Seagate Expands Storage Portfolio With FireCuda Forge Launch](https://www.zacks.com/stock/news/3027787/seagate-expands-storage-portfolio-with-firecuda-forge-launch?cid=CS-ZC-FT-analyst_blog|quick_take-3027787)
+- AMAT 相關新聞:[Applied Materials (AMAT) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates](https://www.zacks.com/stock/news/3029043/applied-materials-amat-q4-earnings-taking-a-look-at-key-metrics-versus-estimates?cid=CS-ZC-FT-fundamental_analysis|nfm-3029043);[Applied Materials (AMAT) Tops Q4 Earnings and Revenue Estimates](https://www.zacks.com/stock/news/3029036/applied-materials-amat-tops-q4-earnings-and-revenue-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3029036);[Onto Innovation's 57.6% Gross Margin: Can It Rise Further in Q4?](https://www.zacks.com/stock/news/3028344/onto-innovation-s-57-6-gross-margin-can-it-rise-further-in-q4?cid=CS-ZC-FT-analyst_blog|quick_take-3028344)
 
 ## 5. 技術線型篩選
 範圍:成交值前 50 名。型態A=區間整理且量縮;型態B=週MACD多方、日MACD回檔。
 
-**型態A:** MRNA
-**型態B:** TSLA、WMT、TXN、V、MCD
-**同時符合A與B:** 無
+**型態A:** TSLA、AAPL、META、MRNA
+**型態B:** TSLA、WMT
+**同時符合A與B:** TSLA
 
 接近名單(僅差一項):
-- AMD(型態A):量未縮
+- AAPL(型態B):日MACD未呈回檔修正
 - MSFT(型態A):量未縮
 - MSFT(型態B):週MACD未維持多方
-- AAPL(型態B):日MACD未呈回檔修正
-- TSLA(型態A):量未縮
 - AMZN(型態A):量未縮
-- META(型態A):區間過寬
+- LLY(型態A):量未縮
 - LLY(型態B):日MACD未呈回檔修正
-- WMT(型態A):量未縮
-- QCOM(型態A):量未縮
-- TXN(型態A):量未縮
+- ORCL(型態A):跌破60MA且均線下彎
+- JNJ(型態B):日MACD未呈回檔修正
 - COST(型態B):日MACD未呈回檔修正
 - V(型態A):量未縮
-- APP(型態B):日MACD未呈回檔修正
-- CRWD(型態A):量未縮
+- V(型態B):週MACD未維持多方
+- WMT(型態A):量未縮
+- PLTR(型態A):跌破60MA且均線下彎
+- XOM(型態B):週MACD未維持多方
+- NFLX(型態A):跌破60MA且均線下彎
+- CVX(型態A):量未縮
+- CVX(型態B):週MACD未維持多方
+- TXN(型態B):日MACD未呈回檔修正
+- MRNA(型態B):週MACD未維持多方
+- QCOM(型態A):量未縮
 - UNH(型態A):量未縮
 - UNH(型態B):週MACD未維持多方
 
-資料不足無法驗證:SKHY
+資料不足無法驗證:SKHY、CBRS(週線資料不足)
 
 ---
 *本報告由程式與 AI 自動產生,僅供資訊參考,不構成投資建議,內容可能延遲、不完整或有誤。*
