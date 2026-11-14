@@ -1,109 +1,100 @@
-# 美股盤後分析:2026-11-12(美東收盤)
+# 美股盤後分析:2026-11-13(美東收盤)
 
 > AI 未啟用或本次呼叫失敗,以下僅含程式計算的數據。
 
 ## 1. 成交值前 20 名
 | # | 代碼 | 名稱 | 收盤 | 漲跌幅 | 成交金額(美元) | 昨日名次 | 題材 |
 |---|---|---|---|---|---|---|---|
-| 1 | NVDA | Nvidia Corp | 166.19 | -4.34% | 1208.6 億 | 1 |  |
-| 2 | AMD | Advanced Micro Devices | 585.30 | +5.86% | 319.0 億 | 3 |  |
-| 3 | MU | Micron Technology, Inc. | 798.44 | -1.59% | 217.5 億 | 2 |  |
-| 4 | AVGO | Broadcom Inc. Common Stock | 364.36 | +5.54% | 158.7 億 | 8 |  |
-| 5 | SPCX | Space Exploration Technologies Corp. Class A Common Stock | 139.94 | +0.14% | 136.8 億 | 4 |  |
-| 6 | SNDK | Sandisk Corporation Common Stock | 937.46 | -4.11% | 122.9 億 | 5 |  |
-| 7 | TSLA | Tesla, Inc. Common Stock | 397.45 | +1.69% | 115.1 億 | 9 |  |
-| 8 | AAPL | Apple Inc. | 354.88 | -0.21% | 113.6 億 | 7 |  |
-| 9 | GOOGL | Alphabet Inc. Class A Common Stock | 298.70 | +1.79% | 106.0 億 | 14 |  |
-| 10 | MSFT | Microsoft Corp | 523.00 | +0.36% | 97.7 億 | 6 |  |
-| 11 | AMZN | Amazon.Com Inc | 267.44 | +0.48% | 92.9 億 | 10 |  |
-| 12 | NBIS | Nebius Group N.V. Class A Ordinary Shares | 128.64 | -16.84% | 90.2 億 | 15 |  |
-| 13 | GOOG | Alphabet Inc. Class C Capital Stock | 295.35 | +1.62% | 65.5 億 | 18 |  |
-| 14 | META | Meta Platforms, Inc. Class A Common Stock | 623.61 | -0.82% | 64.5 億 | 11 |  |
-| 15 | CRWV | CoreWeave, Inc. Class A Common Stock | 56.60 | -6.86% | 60.3 億 | 12 |  |
-| 16 | INTC | Intel Corp | 61.20 | -2.08% | 49.4 億 | 13 |  |
-| 17 | TSM | Taiwan Semiconductor Manufacturing Company Ltd. | 405.49 | -1.90% | 46.1 億 | 16 |  |
-| 18 | MRVL | Marvell Technology, Inc. Common Stock | 164.45 | -2.58% | 35.5 億 | 17 |  |
-| 19 | AMAT | Applied Materials Inc | 380.95 | -3.58% | 35.3 億 | 26 |  |
-| 20 | LLY | Eli Lilly & Co. | 1427.28 | -0.70% | 34.8 億 | 29 |  |
+| 1 | NVDA | Nvidia Corp | 162.85 | -2.01% | 594.1 億 | 1 |  |
+| 2 | AMD | Advanced Micro Devices | 534.06 | -8.75% | 264.3 億 | 2 |  |
+| 3 | MU | Micron Technology, Inc. | 778.31 | -2.52% | 215.2 億 | 3 |  |
+| 4 | AAPL | Apple Inc. | 356.27 | +0.39% | 143.1 億 | 8 |  |
+| 5 | MSFT | Microsoft Corp | 523.88 | +0.17% | 136.9 億 | 10 |  |
+| 6 | TSLA | Tesla, Inc. Common Stock | 390.22 | -1.82% | 126.9 億 | 7 |  |
+| 7 | AVGO | Broadcom Inc. Common Stock | 347.01 | -4.76% | 109.7 億 | 4 |  |
+| 8 | SPCX | Space Exploration Technologies Corp. Class A Common Stock | 139.11 | -0.59% | 109.3 億 | 5 |  |
+| 9 | SNDK | Sandisk Corporation Common Stock | 885.01 | -5.59% | 107.7 億 | 6 |  |
+| 10 | META | Meta Platforms, Inc. Class A Common Stock | 641.69 | +2.90% | 96.4 億 | 14 |  |
+| 11 | GOOGL | Alphabet Inc. Class A Common Stock | 295.77 | -0.98% | 91.5 億 | 9 |  |
+| 12 | AMZN | Amazon.Com Inc | 266.66 | -0.29% | 83.0 億 | 11 |  |
+| 13 | INTC | Intel Corp | 59.66 | -2.52% | 60.5 億 | 16 |  |
+| 14 | NBIS | Nebius Group N.V. Class A Ordinary Shares | 115.88 | -9.92% | 56.4 億 | 12 |  |
+| 15 | GOOG | Alphabet Inc. Class C Capital Stock | 292.52 | -0.96% | 54.4 億 | 13 |  |
+| 16 | AMAT | Applied Materials Inc | 370.50 | -2.74% | 44.0 億 | 19 |  |
+| 17 | TSM | Taiwan Semiconductor Manufacturing Company Ltd. | 398.73 | -1.67% | 42.8 億 | 17 |  |
+| 18 | CRWV | CoreWeave, Inc. Class A Common Stock | 53.13 | -6.13% | 41.9 億 | 15 |  |
+| 19 | CBRS | Cerebras Systems Inc. Class A Common Stock | 108.72 | +11.22% | 40.0 億 | 46 |  |
+| 20 | MRVL | Marvell Technology, Inc. Common Stock | 156.76 | -4.68% | 36.9 億 | 18 |  |
 
 ## 2. 整體盤面
 | ETF 代理 | 收盤 | 漲跌幅 |
 |---|---|---|
-| SPY | 757.12 | -0.35% |
-| QQQ | 688.17 | -0.32% |
-| DIA | 522.47 | -0.38% |
-| IWM | 278.44 | -1.64% |
-| SMH | 501.73 | -1.03% |
-| TLT | 79.72 | -1.48% |
-| GLD | 354.89 | -2.82% |
-| USO | 146.07 | +3.25% |
-| UUP | 29.42 | +0.24% |
-| VIXY | 17.51 | +3.43% |
+| SPY | 754.37 | -0.36% |
+| QQQ | 679.89 | -1.20% |
+| DIA | 523.15 | +0.13% |
+| IWM | 277.54 | -0.32% |
+| SMH | 486.75 | -2.99% |
+| TLT | 79.38 | -0.43% |
+| GLD | 355.45 | +0.16% |
+| USO | 145.58 | -0.34% |
+| UUP | 29.50 | +0.27% |
+| VIXY | 17.94 | +2.46% |
 
-漲跌家數:上漲 1195 / 下跌 4942(全市場(含ETF,價格≥1、量≥5萬股));全市場成交金額約 1.02 兆 美元。
+漲跌家數:上漲 2577 / 下跌 3353(全市場(含ETF,價格≥1、量≥5萬股));全市場成交金額約 8814.8 億 美元。
 
 ## 3. 新進前 20 名公司
-### AMAT
-- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3029043/applied-materials-amat-q4-earnings-taking-a-look-at-key-metrics-versus-estimates?cid=CS-ZC-FT-fundamental_analysis|nfm-3029043) Applied Materials (AMAT) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates
-- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3029036/applied-materials-amat-tops-q4-earnings-and-revenue-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3029036) Applied Materials (AMAT) Tops Q4 Earnings and Revenue Estimates
-- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3028344/onto-innovation-s-57-6-gross-margin-can-it-rise-further-in-q4?cid=CS-ZC-FT-analyst_blog|quick_take-3028344) Onto Innovation's 57.6% Gross Margin: Can It Rise Further in Q4?
-
-### LLY
-- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/13/this-etf-gained-23-this-year-is-still-worth-buying/?source=iedfolrf0000001) This ETF Has Gained 23% This Year. Is It Still Worth Buying in 2026?
-- 來源:[The Motley Fool](https://www.fool.com/investing/2026/11/13/predict-10k-invested-viking-therapeutics-obesity/?source=iedfolrf0000001) Prediction: $10,000 Invested in Viking Therapeutics Before Its Oral Phase 3 Readouts Could Be Worth This Much by 2028
-- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3028962/how-did-abbvie-s-immunology-franchise-fare-in-q3?cid=CS-ZC-FT-analyst_blog|quick_take-3028962) How Did AbbVie's Immunology Franchise Fare in Q3?
+### CBRS
+- 來源:[The Motley Fool](https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-cerebras-surges-over-11-on-record-q3-revenue-and-raised-2026-guidance/?source=iedfolrf0000001) Stock Market Today, Nov. 13: Cerebras Surges Over 11% on Record Q3 Revenue and Raised 2026 Guidance
+- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3029619/cbrs-q3-earnings-beat-estimates-revenues-rise-on-strong-cloud-growth?cid=CS-ZC-FT-analyst_blog|earnings_article-3029619) CBRS Q3 Earnings Beat Estimates, Revenues Rise on Strong Cloud Growth
+- 來源:[Zacks Investment Research](https://www.zacks.com/stock/news/3029097/compared-to-estimates-cerebras-cbrs-q3-earnings-a-look-at-key-metrics?cid=CS-ZC-FT-fundamental_analysis|nfm-3029097) Compared to Estimates, Cerebras (CBRS) Q3 Earnings: A Look at Key Metrics
 
 ## 4. 劇烈波動(±3.0%)
 | 代碼 | 名次 | 漲跌幅 | 成交金額 |
 |---|---|---|---|
-| NBIS | 12 | -16.84% | 90.2 億 |
-| CRWV | 15 | -6.86% | 60.3 億 |
-| AMD | 2 | +5.86% | 319.0 億 |
-| AVGO | 4 | +5.54% | 158.7 億 |
-| NVDA | 1 | -4.34% | 1208.6 億 |
-| SNDK | 6 | -4.11% | 122.9 億 |
-| AMAT | 19 | -3.58% | 35.3 億 |
+| CBRS | 19 | +11.22% | 40.0 億 |
+| NBIS | 14 | -9.92% | 56.4 億 |
+| AMD | 2 | -8.75% | 264.3 億 |
+| CRWV | 18 | -6.13% | 41.9 億 |
+| SNDK | 9 | -5.59% | 107.7 億 |
+| AVGO | 7 | -4.76% | 109.7 億 |
+| MRVL | 20 | -4.68% | 36.9 億 |
 
-- NBIS 相關新聞:[Microsoft Just Piled Onto the Bad News for CoreWeave, Oracle, and Nebius](https://www.fool.com/investing/2026/11/13/microsoft-just-piled-onto-the-bad-news-for-neoclouds/?source=iedfolrf0000001);[Zacks Investment Ideas feature highlights: Nebius, CoreWeave, IREN and NVIDIA](https://www.zacks.com/stock/news/3029174/zacks-investment-ideas-feature-highlights-nebius-coreweave-iren-and-nvidia?cid=CS-ZC-FT-press_releases-3029174);[Stock Market Today, Nov. 12: Nebius Group Sinks Nearly 17% After Lowering 2026 Outlook](https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nebius-group-sinks-nearly-17-after-lowering-2026-outlook/?source=iedfolrf0000001)
-- CRWV 相關新聞:[Microsoft Just Piled Onto the Bad News for CoreWeave, Oracle, and Nebius](https://www.fool.com/investing/2026/11/13/microsoft-just-piled-onto-the-bad-news-for-neoclouds/?source=iedfolrf0000001);[Zacks Investment Ideas feature highlights: Nebius, CoreWeave, IREN and NVIDIA](https://www.zacks.com/stock/news/3029174/zacks-investment-ideas-feature-highlights-nebius-coreweave-iren-and-nvidia?cid=CS-ZC-FT-press_releases-3029174);[Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off.](https://www.fool.com/investing/2026/11/12/sandisk-stock-is-back-above-the-usd900-price-i-set-for-buying-it-here-s-why-i-m-holding-off/?source=iedfolrf0000001)
-- AMD 相關新聞:[Anthropic Delivers Huge News for Nvidia Stock, AMD Stock, Micron Stock, and Broadcom Stock Investors](https://www.fool.com/investing/2026/11/13/anthropic-delivers-huge-news-for-nvidia-stock-amd-stock-micron-stock-and-broadcom-stock-investors/?source=iedfolrf0000001);[The AI Trade Just Cracked. Here’s the Price at Which I’d Start Buying Nvidia.](https://www.fool.com/investing/2026/11/13/the-ai-trade-just-cracked-here-s-the-price-at-which-i-d-start-buying-nvidia/?source=iedfolrf0000001);[Is Nvidia Undervalued?](https://www.fool.com/investing/2026/11/12/is-nvidia-undervalued/?source=iedfolrf0000001)
-- AVGO 相關新聞:[Anthropic Delivers Huge News for Nvidia Stock, AMD Stock, Micron Stock, and Broadcom Stock Investors](https://www.fool.com/investing/2026/11/13/anthropic-delivers-huge-news-for-nvidia-stock-amd-stock-micron-stock-and-broadcom-stock-investors/?source=iedfolrf0000001);[The AI Trade Just Cracked. Here’s the Price at Which I’d Start Buying Nvidia.](https://www.fool.com/investing/2026/11/13/the-ai-trade-just-cracked-here-s-the-price-at-which-i-d-start-buying-nvidia/?source=iedfolrf0000001);[Buy These 3 Vanguard Mutual Funds for Outstanding Returns](https://www.zacks.com/stock/news/3029177/buy-these-3-vanguard-mutual-funds-for-outstanding-returns?cid=CS-ZC-FT-best_of_funds-3029177)
-- NVDA 相關新聞:[The S&P 500 Recently Experienced Its Worst Day Since 2025. Here's Why Investors Shouldn't Worry.](https://www.fool.com/investing/2026/11/13/sp-500-experienced-worst-day-since-2025-why-investors-not-worry/?source=iedfolrf0000001);[Anthropic Delivers Huge News for Nvidia Stock, AMD Stock, Micron Stock, and Broadcom Stock Investors](https://www.fool.com/investing/2026/11/13/anthropic-delivers-huge-news-for-nvidia-stock-amd-stock-micron-stock-and-broadcom-stock-investors/?source=iedfolrf0000001);[Amazon Is the Only "Magnificent Seven" Stock I'd Buy With $1,000 Right Now](https://www.fool.com/investing/2026/11/13/amazon-is-the-only-magnificent-seven-stock-id-buy/?source=iedfolrf0000001)
-- SNDK 相關新聞:[Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off.](https://www.fool.com/investing/2026/11/12/sandisk-stock-is-back-above-the-usd900-price-i-set-for-buying-it-here-s-why-i-m-holding-off/?source=iedfolrf0000001);[Zacks.com featured highlights include Micron, NVIDIA and Sandisk](https://www.zacks.com/stock/news/3028439/zacks-com-featured-highlights-include-micron-nvidia-and-sandisk?cid=CS-ZC-FT-press_releases-3028439);[Seagate Expands Storage Portfolio With FireCuda Forge Launch](https://www.zacks.com/stock/news/3027787/seagate-expands-storage-portfolio-with-firecuda-forge-launch?cid=CS-ZC-FT-analyst_blog|quick_take-3027787)
-- AMAT 相關新聞:[Applied Materials (AMAT) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates](https://www.zacks.com/stock/news/3029043/applied-materials-amat-q4-earnings-taking-a-look-at-key-metrics-versus-estimates?cid=CS-ZC-FT-fundamental_analysis|nfm-3029043);[Applied Materials (AMAT) Tops Q4 Earnings and Revenue Estimates](https://www.zacks.com/stock/news/3029036/applied-materials-amat-tops-q4-earnings-and-revenue-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3029036);[Onto Innovation's 57.6% Gross Margin: Can It Rise Further in Q4?](https://www.zacks.com/stock/news/3028344/onto-innovation-s-57-6-gross-margin-can-it-rise-further-in-q4?cid=CS-ZC-FT-analyst_blog|quick_take-3028344)
+- CBRS 相關新聞:[Stock Market Today, Nov. 13: Cerebras Surges Over 11% on Record Q3 Revenue and Raised 2026 Guidance](https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-cerebras-surges-over-11-on-record-q3-revenue-and-raised-2026-guidance/?source=iedfolrf0000001);[CBRS Q3 Earnings Beat Estimates, Revenues Rise on Strong Cloud Growth](https://www.zacks.com/stock/news/3029619/cbrs-q3-earnings-beat-estimates-revenues-rise-on-strong-cloud-growth?cid=CS-ZC-FT-analyst_blog|earnings_article-3029619);[Compared to Estimates, Cerebras (CBRS) Q3 Earnings: A Look at Key Metrics](https://www.zacks.com/stock/news/3029097/compared-to-estimates-cerebras-cbrs-q3-earnings-a-look-at-key-metrics?cid=CS-ZC-FT-fundamental_analysis|nfm-3029097)
+- NBIS 相關新聞:[What's Going on With CoreWeave Stock?](https://www.fool.com/investing/2026/11/14/what-s-going-on-with-coreweave-stock/?source=iedfolrf0000001);[Stock Market Today, Nov. 13: CoreWeave Falls Over 6% on AI-Cloud Selling and Reported $4 Billion Loan Talks](https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-coreweave-falls-over-6-on-ai-cloud-selling-and-reported-usd4-billion-loan-talks/?source=iedfolrf0000001);[CoreWeave and Nebius Group: 1 Soars, the Other 1 Plunges. A Tale of 2 Neoclouds](https://www.fool.com/investing/2026/11/13/coreweave-and-nebius-group-1-soars-the-other-1-plunges-a-tale-of-2-neoclouds/?source=iedfolrf0000001)
+- AMD 相關新聞:[Prediction: ASML Will Join the $800 Billion Club in 2029](https://www.fool.com/investing/2026/11/14/prediction-asml-will-join-the-800-billion-club/?source=iedfolrf0000001);[Advisor Insights — Brought to You By The Motley Fool](https://www.fool.com/retirement/advisor/2026/11/13/advisor-insights-brought-to-you-by-the-motley-fool/?source=iedfolrf0000001);[Stock Market Today, Nov. 13: Cerebras Surges Over 11% on Record Q3 Revenue and Raised 2026 Guidance](https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-cerebras-surges-over-11-on-record-q3-revenue-and-raised-2026-guidance/?source=iedfolrf0000001)
+- CRWV 相關新聞:[What's Going on With CoreWeave Stock?](https://www.fool.com/investing/2026/11/14/what-s-going-on-with-coreweave-stock/?source=iedfolrf0000001);[Stock Market Today, Nov. 13: CoreWeave Falls Over 6% on AI-Cloud Selling and Reported $4 Billion Loan Talks](https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-coreweave-falls-over-6-on-ai-cloud-selling-and-reported-usd4-billion-loan-talks/?source=iedfolrf0000001);[CoreWeave and Nebius Group: 1 Soars, the Other 1 Plunges. A Tale of 2 Neoclouds](https://www.fool.com/investing/2026/11/13/coreweave-and-nebius-group-1-soars-the-other-1-plunges-a-tale-of-2-neoclouds/?source=iedfolrf0000001)
+- SNDK 相關新聞:[Sandisk Stock Fell Back Under $900 on Friday. I'd Start With a Small Position.](https://www.fool.com/investing/2026/11/13/sandisk-stock-fell-back-under-usd900-on-friday-i-d-start-with-a-small-position/?source=iedfolrf0000001);[Beat Value Traps: 4 Stocks With Attractive PEG Ratios to Buy Now](https://www.zacks.com/stock/news/3029812/beat-value-traps-4-stocks-with-attractive-peg-ratios-to-buy-now?cid=CS-ZC-FT-analyst_blog|rw-3029812);[Why Sandisk Stock Is Falling Today](https://www.fool.com/investing/2026/11/13/why-sandisk-stock-is-falling-today/?source=iedfolrf0000001)
+- AVGO 相關新聞:[Prediction: 2 Stocks That Will Be Worth More Than SpaceX 5 Years From Now](https://www.fool.com/investing/2026/11/14/prediction-2-stocks-that-will-be-worth-more-than-s/?source=iedfolrf0000001);[Advisor Insights — Brought to You By The Motley Fool](https://www.fool.com/retirement/advisor/2026/11/13/advisor-insights-brought-to-you-by-the-motley-fool/?source=iedfolrf0000001);[Stock Market Today, Nov. 13: Nvidia Slides After HSBC Downgrades Stock to Hold on CEO Uncertainty](https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-nvidia-slides-after-hsbc-downgrades-stock-to-hold-on-ceo-uncertainty/?source=iedfolrf0000001)
+- MRVL 相關新聞:[2 Stocks That Plunged on Oct. 29 to Buy and Hold Through 2030](https://www.fool.com/investing/2026/11/14/2-stocks-that-plunged-on-oct-29-to-buy-and-hold-through-2030/?source=iedfolrf0000001);[ASX Stock Surges 148% in a Year: Is More Upside Still Ahead?](https://www.zacks.com/stock/news/3029639/asx-stock-surges-148-in-a-year-is-more-upside-still-ahead?cid=CS-ZC-FT-analyst_blog|most_popular_stocks-3029639);[The Stock Market Tumbled After the Midterms. History Says This Sector Could Rally More Than 30% in the Next 12 Months](https://www.fool.com/investing/2026/11/13/the-stock-market-tumbled-after-the-midterms-history-says-this-sector-could-rally-more-than-30/?source=iedfolrf0000001)
 
 ## 5. 技術線型篩選
 範圍:成交值前 50 名。型態A=區間整理且量縮;型態B=週MACD多方、日MACD回檔。
 
-**型態A:** TSLA、AAPL、META、MRNA
-**型態B:** TSLA、WMT
-**同時符合A與B:** TSLA
+**型態A:** AAPL、TSLA、META、AMZN、V、MRNA
+**型態B:** TSLA、LLY、KDP、WMT、SO、V
+**同時符合A與B:** TSLA、V
 
 接近名單(僅差一項):
+- AMD(型態A):量未縮
 - AAPL(型態B):日MACD未呈回檔修正
 - MSFT(型態A):量未縮
 - MSFT(型態B):週MACD未維持多方
-- AMZN(型態A):量未縮
-- LLY(型態A):量未縮
-- LLY(型態B):日MACD未呈回檔修正
+- SPCX(型態A):量未縮
 - ORCL(型態A):跌破60MA且均線下彎
-- JNJ(型態B):日MACD未呈回檔修正
-- COST(型態B):日MACD未呈回檔修正
-- V(型態A):量未縮
-- V(型態B):週MACD未維持多方
-- WMT(型態A):量未縮
 - PLTR(型態A):跌破60MA且均線下彎
+- KDP(型態A):量未縮
+- WMT(型態A):量未縮
+- COST(型態B):日MACD未呈回檔修正
+- SO(型態A):量未縮
 - XOM(型態B):週MACD未維持多方
-- NFLX(型態A):跌破60MA且均線下彎
-- CVX(型態A):量未縮
-- CVX(型態B):週MACD未維持多方
-- TXN(型態B):日MACD未呈回檔修正
 - MRNA(型態B):週MACD未維持多方
+- JNJ(型態B):日MACD未呈回檔修正
 - QCOM(型態A):量未縮
-- UNH(型態A):量未縮
-- UNH(型態B):週MACD未維持多方
+- KO(型態B):日MACD未呈回檔修正
+- ANET(型態A):量未縮
+- CVX(型態B):週MACD未維持多方
 
-資料不足無法驗證:SKHY、CBRS(週線資料不足)
+資料不足無法驗證:CBRS(週線資料不足)、SKHY
 
 ---
 *本報告由程式與 AI 自動產生,僅供資訊參考,不構成投資建議,內容可能延遲、不完整或有誤。*

@@ -1350,5 +1350,21 @@
   "shares": 125700000,
   "market_cap": null,
   "fetched": "2026-11-13"
+ },
+ "KDP": {
+  "name": "Keurig Dr Pepper Inc.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 1360948350,
+  "market_cap": 48204790557.0,
+  "fetched": "2026-11-14"
+ },
+ "SO": {
+  "name": "The Southern Company",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1164261029,
+  "market_cap": 107659217351.63,
+  "fetched": "2026-11-14"
  }
 }
