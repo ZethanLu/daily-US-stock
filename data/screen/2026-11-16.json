@@ -1,0 +1,482 @@
+{
+ "date": "2026-11-16",
+ "universe": 50,
+ "pattern_a": [
+  {
+   "ticker": "AAPL",
+   "name": "Apple Inc.",
+   "close": 352.78,
+   "atr": 8.046,
+   "range_pct": 10.912,
+   "range_atr": 4.412,
+   "edge_low_atr": 3.412,
+   "edge_high_atr": 1.001,
+   "vol_ratio": 0.777,
+   "ma60": 336.129,
+   "d_dif": 4.159,
+   "d_dea": 3.455,
+   "d_hist": 0.703,
+   "w_dif": 15.611,
+   "w_dea": 14.973,
+   "w_hist": 0.638,
+   "w_hist_prev": 0.767,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "B1": false,
+    "B2": false,
+    "B3": true
+   }
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon.Com Inc",
+   "close": 257.75,
+   "atr": 9.146,
+   "range_pct": 20.045,
+   "range_atr": 5.027,
+   "edge_low_atr": 3.104,
+   "edge_high_atr": 1.923,
+   "vol_ratio": 0.768,
+   "ma60": 255.55,
+   "d_dif": 2.914,
+   "d_dea": 2.023,
+   "d_hist": 0.892,
+   "w_dif": 3.103,
+   "w_dea": 3.534,
+   "w_hist": -0.431,
+   "w_hist_prev": -0.525,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "B1": false,
+    "B2": true,
+    "B3": true
+   }
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla, Inc. Common Stock",
+   "close": 379.74,
+   "atr": 16.558,
+   "range_pct": 22.499,
+   "range_atr": 4.595,
+   "edge_low_atr": 2.512,
+   "edge_high_atr": 2.083,
+   "vol_ratio": 0.737,
+   "ma60": 372.046,
+   "d_dif": 2.694,
+   "d_dea": 3.328,
+   "d_hist": -0.634,
+   "w_dif": -1.406,
+   "w_dea": -5.378,
+   "w_hist": 3.972,
+   "w_hist_prev": 4.23,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "B1": false,
+    "B2": true,
+    "B3": true
+   }
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms, Inc. Class A Common Stock",
+   "close": 626.41,
+   "atr": 22.692,
+   "range_pct": 22.169,
+   "range_atr": 5.703,
+   "edge_low_atr": 1.878,
+   "edge_high_atr": 3.826,
+   "vol_ratio": 0.559,
+   "ma60": 663.757,
+   "d_dif": -14.659,
+   "d_dea": -17.016,
+   "d_hist": 2.357,
+   "w_dif": 5.558,
+   "w_dea": 8.235,
+   "w_hist": -2.677,
+   "w_hist_prev": -1.089,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "B1": false,
+    "B2": false,
+    "B3": false
+   }
+  },
+  {
+   "ticker": "V",
+   "name": "VISA Inc.",
+   "close": 426.46,
+   "atr": 8.733,
+   "range_pct": 12.24,
+   "range_atr": 5.522,
+   "edge_low_atr": 3.717,
+   "edge_high_atr": 1.805,
+   "vol_ratio": 0.789,
+   "ma60": 389.425,
+   "d_dif": 9.814,
+   "d_dea": 10.559,
+   "d_hist": -0.744,
+   "w_dif": 21.786,
+   "w_dea": 16.998,
+   "w_hist": 4.788,
+   "w_hist_prev": 4.998,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "B1": false,
+    "B2": true,
+    "B3": true
+   }
+  },
+  {
+   "ticker": "TXN",
+   "name": "Texas Instruments Incorporated",
+   "close": 294.21,
+   "atr": 13.33,
+   "range_pct": 16.949,
+   "range_atr": 3.449,
+   "edge_low_atr": 1.724,
+   "edge_high_atr": 1.725,
+   "vol_ratio": 0.699,
+   "ma60": 280.276,
+   "d_dif": 4.639,
+   "d_dea": 5.19,
+   "d_hist": -0.551,
+   "w_dif": 9.218,
+   "w_dea": 9.334,
+   "w_hist": -0.116,
+   "w_hist_prev": -0.229,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "B1": false,
+    "B2": true,
+    "B3": true
+   }
+  }
+ ],
+ "pattern_b": [
+  {
+   "ticker": "LLY",
+   "name": "Eli Lilly & Co.",
+   "close": 1431.67,
+   "atr": 44.547,
+   "range_pct": 17.305,
+   "range_atr": 4.885,
+   "edge_low_atr": 3.907,
+   "edge_high_atr": 0.978,
+   "vol_ratio": 0.827,
+   "ma60": 1235.712,
+   "d_dif": 55.797,
+   "d_dea": 54.129,
+   "d_hist": 1.668,
+   "w_dif": 84.523,
+   "w_dea": 62.833,
+   "w_hist": 21.689,
+   "w_hist_prev": 20.431,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": false,
+    "A4": true,
+    "B1": true,
+    "B2": true,
+    "B3": true
+   }
+  },
+  {
+   "ticker": "WMT",
+   "name": "Walmart Inc. Common Stock",
+   "close": 128.41,
+   "atr": 2.732,
+   "range_pct": 13.024,
+   "range_atr": 5.56,
+   "edge_low_atr": 4.312,
+   "edge_high_atr": 1.248,
+   "vol_ratio": 0.823,
+   "ma60": 113.375,
+   "d_dif": 3.644,
+   "d_dea": 3.746,
+   "d_hist": -0.102,
+   "w_dif": 2.37,
+   "w_dea": -0.212,
+   "w_hist": 2.582,
+   "w_hist_prev": 2.484,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": false,
+    "A4": true,
+    "B1": true,
+    "B2": true,
+    "B3": true
+   }
+  },
+  {
+   "ticker": "HD",
+   "name": "Home Depot, Inc.",
+   "close": 347.51,
+   "atr": 8.601,
+   "range_pct": 16.675,
+   "range_atr": 6.023,
+   "edge_low_atr": 4.287,
+   "edge_high_atr": 1.736,
+   "vol_ratio": 0.943,
+   "ma60": 315.139,
+   "d_dif": 11.354,
+   "d_dea": 10.912,
+   "d_hist": 0.442,
+   "w_dif": -0.966,
+   "w_dea": -6.434,
+   "w_hist": 5.468,
+   "w_hist_prev": 4.718,
+   "conds": {
+    "A1": false,
+    "A2": true,
+    "A3": false,
+    "A4": true,
+    "B1": true,
+    "B2": true,
+    "B3": true
+   }
+  }
+ ],
+ "both": [],
+ "near": [
+  {
+   "ticker": "AMD",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.649,
+   "vol_ratio": 1.322,
+   "d_hist": 5.373
+  },
+  {
+   "ticker": "MSFT",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.631,
+   "vol_ratio": 0.976,
+   "d_hist": -2.273
+  },
+  {
+   "ticker": "MSFT",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.631,
+   "vol_ratio": 0.976,
+   "d_hist": -2.273
+  },
+  {
+   "ticker": "AMZN",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 5.027,
+   "vol_ratio": 0.768,
+   "d_hist": 0.892
+  },
+  {
+   "ticker": "TSLA",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 4.595,
+   "vol_ratio": 0.737,
+   "d_hist": -0.634
+  },
+  {
+   "ticker": "LLY",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.885,
+   "vol_ratio": 0.827,
+   "d_hist": 1.668
+  },
+  {
+   "ticker": "COST",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 7.177,
+   "vol_ratio": 0.906,
+   "d_hist": 6.066
+  },
+  {
+   "ticker": "V",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 5.522,
+   "vol_ratio": 0.789,
+   "d_hist": -0.744
+  },
+  {
+   "ticker": "PLTR",
+   "pattern": "A",
+   "failed": "A4",
+   "reason": "跌破60MA且均線下彎",
+   "range_atr": 5.642,
+   "vol_ratio": 0.668,
+   "d_hist": -1.845
+  },
+  {
+   "ticker": "LRCX",
+   "pattern": "A",
+   "failed": "A4",
+   "reason": "跌破60MA且均線下彎",
+   "range_atr": 5.297,
+   "vol_ratio": 0.783,
+   "d_hist": 1.871
+  },
+  {
+   "ticker": "PG",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 5.084,
+   "vol_ratio": 0.873,
+   "d_hist": 0.359
+  },
+  {
+   "ticker": "JPM",
+   "pattern": "A",
+   "failed": "A4",
+   "reason": "跌破60MA且均線下彎",
+   "range_atr": 4.025,
+   "vol_ratio": 0.777,
+   "d_hist": 0.447
+  },
+  {
+   "ticker": "ORCL",
+   "pattern": "A",
+   "failed": "A4",
+   "reason": "跌破60MA且均線下彎",
+   "range_atr": 4.913,
+   "vol_ratio": 0.611,
+   "d_hist": 0.275
+  },
+  {
+   "ticker": "JNJ",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.177,
+   "vol_ratio": 0.971,
+   "d_hist": 1.257
+  },
+  {
+   "ticker": "JNJ",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 5.177,
+   "vol_ratio": 0.971,
+   "d_hist": 1.257
+  },
+  {
+   "ticker": "WMT",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.56,
+   "vol_ratio": 0.823,
+   "d_hist": -0.102
+  },
+  {
+   "ticker": "QCOM",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.187,
+   "vol_ratio": 0.8,
+   "d_hist": 0.358
+  },
+  {
+   "ticker": "TXN",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.449,
+   "vol_ratio": 0.699,
+   "d_hist": -0.551
+  },
+  {
+   "ticker": "PEP",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.096,
+   "vol_ratio": 0.974,
+   "d_hist": 0.659
+  },
+  {
+   "ticker": "PEP",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 5.096,
+   "vol_ratio": 0.974,
+   "d_hist": 0.659
+  },
+  {
+   "ticker": "KO",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.816,
+   "vol_ratio": 0.904,
+   "d_hist": 0.314
+  },
+  {
+   "ticker": "KO",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 5.816,
+   "vol_ratio": 0.904,
+   "d_hist": 0.314
+  },
+  {
+   "ticker": "APP",
+   "pattern": "B",
+   "failed": "B2",
+   "reason": "日MACD未呈回檔修正",
+   "range_atr": 9.058,
+   "vol_ratio": 0.722,
+   "d_hist": 15.512
+  },
+  {
+   "ticker": "WDC",
+   "pattern": "A",
+   "failed": "A4",
+   "reason": "跌破60MA且均線下彎",
+   "range_atr": 5.422,
+   "vol_ratio": 0.713,
+   "d_hist": -1.304
+  }
+ ],
+ "insufficient": [
+  "SKHY"
+ ]
+}
