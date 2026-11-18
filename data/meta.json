@@ -1366,5 +1366,29 @@
   "shares": 1164261029,
   "market_cap": 107659217351.63,
   "fetched": "2026-11-14"
+ },
+ "SLS": {
+  "name": "SELLAS Life Sciences Group, Inc. Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 203859151,
+  "market_cap": 3903902741.6499996,
+  "fetched": "2026-11-18"
+ },
+ "NKE": {
+  "name": "Nike, Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1485308829,
+  "market_cap": 53248321519.65,
+  "fetched": "2026-11-18"
+ },
+ "DIS": {
+  "name": "The Walt Disney Company",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1708029668,
+  "market_cap": 199736989375.91998,
+  "fetched": "2026-11-18"
  }
 }
