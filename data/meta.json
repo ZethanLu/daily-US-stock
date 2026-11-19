@@ -1390,5 +1390,37 @@
   "shares": 1708029668,
   "market_cap": 199736989375.91998,
   "fetched": "2026-11-18"
+ },
+ "TJX": {
+  "name": "TJX Companies, Inc. (The)",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 1099974061,
+  "market_cap": 154326360758.30002,
+  "fetched": "2026-11-19"
+ },
+ "TGT": {
+  "name": "Target Corporation",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 454296736,
+  "market_cap": 75381457404.48,
+  "fetched": "2026-11-19"
+ },
+ "EFA": {
+  "name": "iShares MSCI EAFE ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 742200000,
+  "market_cap": null,
+  "fetched": "2026-11-19"
+ },
+ "HUM": {
+  "name": "Humana Inc.",
+  "type": "CS",
+  "exchange": "XNYS",
+  "shares": 120103250,
+  "market_cap": 46333431785.0,
+  "fetched": "2026-11-19"
  }
 }
