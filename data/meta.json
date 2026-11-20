@@ -1422,5 +1422,37 @@
   "shares": 120103250,
   "market_cap": 46333431785.0,
   "fetched": "2026-11-19"
+ },
+ "ANT": {
+  "name": "Anthropic, PBC Class A Common Stock",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 13086672591,
+  "market_cap": 1271631975667.47,
+  "fetched": "2026-11-20"
+ },
+ "SPDN": {
+  "name": "Direxion Daily S&P 500 Bear 1X ETF",
+  "type": "ETF",
+  "exchange": "ARCX",
+  "shares": 33449982,
+  "market_cap": null,
+  "fetched": "2026-11-20"
+ },
+ "INSM": {
+  "name": "Insmed, Inc.",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 219380309,
+  "market_cap": 31691679438.140003,
+  "fetched": "2026-11-20"
+ },
+ "PDD": {
+  "name": "PDD Holdings Inc. American Depositary Shares",
+  "type": "ADRC",
+  "exchange": "XNAS",
+  "shares": 1423396462,
+  "market_cap": 122412095732.0,
+  "fetched": "2026-11-20"
  }
 }
