@@ -1454,5 +1454,13 @@
   "shares": 1423396462,
   "market_cap": 122412095732.0,
   "fetched": "2026-11-20"
+ },
+ "INTU": {
+  "name": "Intuit Inc",
+  "type": "CS",
+  "exchange": "XNAS",
+  "shares": 267236000,
+  "market_cap": 72271303840.0,
+  "fetched": "2026-11-21"
  }
 }

@@ -1,0 +1,169 @@
+{
+ "date": "2026-11-20",
+ "universe": 50,
+ "pattern_a": [],
+ "pattern_b": [
+  {
+   "ticker": "WMT",
+   "name": "Walmart Inc. Common Stock",
+   "close": 127.95,
+   "atr": 2.896,
+   "range_pct": 11.606,
+   "range_atr": 4.734,
+   "edge_low_atr": 3.398,
+   "edge_high_atr": 1.337,
+   "vol_ratio": 1.186,
+   "ma60": 114.876,
+   "d_dif": 3.031,
+   "d_dea": 3.433,
+   "d_hist": -0.401,
+   "w_dif": 2.333,
+   "w_dea": -0.22,
+   "w_hist": 2.553,
+   "w_hist_prev": 2.484,
+   "conds": {
+    "A1": true,
+    "A2": true,
+    "A3": false,
+    "A4": true,
+    "B1": true,
+    "B2": true,
+    "B3": true
+   }
+  },
+  {
+   "ticker": "COST",
+   "name": "Costco Wholesale Corp",
+   "close": 1102.15,
+   "atr": 19.075,
+   "range_pct": 14.623,
+   "range_atr": 7.515,
+   "edge_low_atr": 6.387,
+   "edge_high_atr": 1.128,
+   "vol_ratio": 1.154,
+   "ma60": 975.924,
+   "d_dif": 34.12,
+   "d_dea": 33.447,
+   "d_hist": 0.672,
+   "w_dif": 27.018,
+   "w_dea": 6.586,
+   "w_hist": 20.432,
+   "w_hist_prev": 18.486,
+   "conds": {
+    "A1": false,
+    "A2": true,
+    "A3": false,
+    "A4": true,
+    "B1": true,
+    "B2": true,
+    "B3": true
+   }
+  }
+ ],
+ "both": [],
+ "near": [
+  {
+   "ticker": "AAPL",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.34,
+   "vol_ratio": 0.979,
+   "d_hist": -0.76
+  },
+  {
+   "ticker": "AAPL",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 4.34,
+   "vol_ratio": 0.979,
+   "d_hist": -0.76
+  },
+  {
+   "ticker": "META",
+   "pattern": "A",
+   "failed": "A2",
+   "reason": "貼近區間邊緣或已突破/跌破",
+   "range_atr": 3.857,
+   "vol_ratio": 0.702,
+   "d_hist": -2.985
+  },
+  {
+   "ticker": "WMT",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.734,
+   "vol_ratio": 1.186,
+   "d_hist": -0.401
+  },
+  {
+   "ticker": "LLY",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.065,
+   "vol_ratio": 0.976,
+   "d_hist": -13.408
+  },
+  {
+   "ticker": "LLY",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 5.065,
+   "vol_ratio": 0.976,
+   "d_hist": -13.408
+  },
+  {
+   "ticker": "V",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 5.394,
+   "vol_ratio": 1.01,
+   "d_hist": -3.848
+  },
+  {
+   "ticker": "V",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 5.394,
+   "vol_ratio": 1.01,
+   "d_hist": -3.848
+  },
+  {
+   "ticker": "JNJ",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 3.886,
+   "vol_ratio": 1.189,
+   "d_hist": -1.3
+  },
+  {
+   "ticker": "JNJ",
+   "pattern": "B",
+   "failed": "B1",
+   "reason": "週MACD未維持多方",
+   "range_atr": 3.886,
+   "vol_ratio": 1.189,
+   "d_hist": -1.3
+  },
+  {
+   "ticker": "CRWD",
+   "pattern": "A",
+   "failed": "A3",
+   "reason": "量未縮",
+   "range_atr": 4.019,
+   "vol_ratio": 1.102,
+   "d_hist": 0.44
+  }
+ ],
+ "insufficient": [
+  "ANT",
+  "SKHY"
+ ]
+}
